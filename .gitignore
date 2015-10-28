@@ -25,3 +25,47 @@ proguard/
 
 # Log Files
 *.log
+/Android MMWallet/Android MMWallet.iml
+/Android MMWallet/HockeySDK-Android-3.0.1/HockeySDK-Android-3.0.1.iml
+/.idea/compiler.xml
+/.idea/copyright/profiles_settings.xml
+/.idea/gradle.xml
+/.idea/libraries/acsaj_1_0_0.xml
+/.idea/libraries/android_support_v4.xml
+/.idea/libraries/appcompat_v7_19_1_0.xml
+/.idea/libraries/asn1.xml
+/.idea/libraries/aws_android_sdk_apigateway_core_2_2_4.xml
+/.idea/libraries/aws_android_sdk_cognito_2_2_7.xml
+/.idea/libraries/aws_android_sdk_core_2_2_7.xml
+/.idea/libraries/commons_codec_1_10.xml
+/.idea/libraries/commons_collections_3_2_1.xml
+/.idea/libraries/commons_lang_2_4.xml
+/.idea/libraries/gson_2_2_4.xml
+/.idea/libraries/hamcrest_core_1_3.xml
+/.idea/libraries/hamcrest_library_1_1.xml
+/.idea/libraries/hockeysdk_android.xml
+/.idea/libraries/httpclient_android_4_3_5_1.xml
+/.idea/libraries/jackson_annotations_2_5_1.xml
+/.idea/libraries/jackson_core_2_5_1.xml
+/.idea/libraries/jackson_databind_2_5_1.xml
+/.idea/libraries/junit_4_12.xml
+/.idea/libraries/libVmf.xml
+/.idea/libraries/libVPI.xml
+/.idea/libraries/magtek_scra.xml
+/.idea/libraries/mockito_core_1_10_19.xml
+/.idea/libraries/multidex_1_0_1.xml
+/.idea/libraries/objenesis_2_1.xml
+/.idea/libraries/rhombuslib_master.xml
+/.idea/libraries/roboblender_3_0_1.xml
+/.idea/libraries/roboguice_3_0_1.xml
+/.idea/libraries/support_v13_21_0_3.xml
+/.idea/libraries/velocity_1_7.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/.name
+/.idea/runConfigurations.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/MMWalletAndroid/MMWalletAndroid.iml
+/MPOS.iml
+/snapseekbar/snapseekbar.iml

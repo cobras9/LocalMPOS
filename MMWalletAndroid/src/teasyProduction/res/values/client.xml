@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name" translatable="false">Teasy</string>
+    <string name="SERVER_IP" translatable="false">10.0.0.62</string>
+    <string name="SERVER_PORT" translatable="false">2993</string>
+    <string name="DEFAULT_CURRENCY" translatable="false">NGN</string>
+    <bool name="supportExternalInternalTopup">true</bool>
+    <color name="BUTTON_COLOR">@color/TEASY_FF_0E4D72</color>
+    <color name="BUTTON_COLOR_PRESSED">@color/TEASY_FF_0F7FFF</color>
+
+
+    <color name="QUICKPAY_BACKGROUND">@color/TEASY_77_042B48</color>
+    <color name="OFF_WHITE">@color/CC_WHITE</color>
+    <color name="APP_MAIN_COLOR">@color/TEASY_FF_042B48</color>
+    <color name="APP_MAIN_TEXT_COLOR">@color/WHITE</color>
+
+    <color name="ACTIONBAR_THEME_COLOR">@color/TEASY_FF_042B48</color>
+    <!--<color name="tab_normal">@color/WHITE</color>-->
+    <color name="TAB_NORMAL">@color/TEASY_77_000000</color>
+    <!--<color name="TAB_PRESSED">@color/TEASY_FF_042B48</color>-->
+    <color name="TAB_PRESSED">@color/WHITE</color>
+    <color name="TAB_BACKGROUND_NORMAL">@color/TEASY_77_000000</color>
+    <color name="TAB_BACKGROUND_PRESSED">@color/TEASY_FF_042B48</color>
+
+    <color name="TAB_SEP_TOP">@color/TEASY_88_0079C1</color>
+    <color name="TEXT_NORMAL">@color/WHITE</color>
+    <color name="QUICK_PAY_PRESSED">@color/TEASY_55_0079C1</color>
+    <color name="TAB_SEP_BOTTOM">@color/TEASY_88_0079C1</color>
+
+    <color name="CUST_REG_CELL_SHAPE_BORDER">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_FILL">@color/TEASY_FF_042B48</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_BORDER">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_FILL">@color/WHITE</color>
+
+    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">@color/TEASY_FF_0079C1</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">@color/TEASY_FF_042B48</color>
+    <color name="APP_FRAGMENT_BACKGROUND_COLOR">@color/TEASY_FF_042B48</color>
+    <!--Customer color definitions start -->
+    <color name="TEASY_FF_042B48">#FF042B48</color>
+    <color name="TEASY_FF_0079C1">#FF0079C1</color>
+    <color name="TEASY_88_0079C1">#880079C1</color>
+    <color name="TEASY_55_0079C1">#550079C1</color>
+    <color name="TEASY_77_000000">#77000000</color>
+    <color name="TEASY_77_042B48">#77042B48</color>
+    <color name="TEASY_FF_0E4D72">#FF0E4D72</color>
+    <color name="TEASY_FF_0F7FFF">#FF0F7FFF</color>
+
+    <!--Customer color definitions end -->
+</resources>

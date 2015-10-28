@@ -1,0 +1,178 @@
+ [
+     {
+       "country_name": "!Nigeria",
+       "country_code": "566",
+       "operators": [
+         {
+           "description": "MTN Direct",
+           "presets": [
+             {
+               "code": "10909",
+               "amount": "0"
+             }
+           ]
+         },
+         {
+           "description": "Etisalat",
+           "presets": [
+             {
+               "code": "90801",
+               "amount": "5000"
+             },
+             {
+               "code": "90804",
+               "amount": "50000"
+             },
+             {
+               "code": "90805",
+               "amount": "100000"
+             }
+           ]
+         },
+         {
+           "description": "Glo QuickCharge",
+           "presets": [
+             {
+               "code": "91309",
+               "amount": "0"
+             }
+           ]
+         },
+         {
+           "description": "Visafone",
+           "presets": [
+             {
+               "code": "90902",
+               "amount": "10000"
+             },
+             {
+               "code": "90901",
+               "amount": "20000"
+             },
+             {
+               "code": "90903",
+               "amount": "50000"
+             },
+             {
+               "code": "90904",
+               "amount": "100000"
+             }
+           ]
+         },
+         {
+           "description": "Multilinks Telkom",
+           "presets": [
+             {
+               "code": "91001",
+               "amount": "10000"
+             },
+             {
+               "code": "91004",
+               "amount": "20000"
+             },
+             {
+               "code": "91002",
+               "amount": "50000"
+             },
+             {
+               "code": "91003",
+               "amount": "100000"
+             },
+             {
+               "code": "91005",
+               "amount": "200000"
+             }
+           ]
+         },
+         {
+           "description": "Airtel",
+           "presets": [
+             {
+               "code": "90101",
+               "amount": "0"
+             }
+           ]
+         }
+       ]
+     },
+     {
+       "country_name": "!Afghanistan",
+       "country_code": "791",
+       "operators": [
+         {
+           "description": "Eserv",
+           "presets": [
+             {
+               "code": "EServe",
+               "amount": "0"
+             }
+           ]
+         }
+       ]
+     },
+     {
+        "country_name": "!New Zealand",
+        "country_code": "554",
+        "operators": [
+          {
+            "description": "2degrees",
+            "presets": [
+              {
+                "code": "55401",
+                "amount": "2000"
+              },
+              {
+                "code": "55402",
+                "amount": "3000"
+              },
+              {
+                "code": "55403",
+                "amount": "4000"
+              }
+            ]
+          },
+          {
+            "description": "Telecom NZ",
+            "presets": [
+              {
+                "code": "55410",
+                "amount": "1000"
+              },
+              {
+                "code": "55411",
+                "amount": "2000"
+              },
+              {
+                "code": "55412",
+                "amount": "3000"
+              }
+            ]
+          },
+          {
+            "description": "Vodafone",
+            "presets": [
+              {
+                "code": "55420",
+                "amount": "0"
+              }
+            ]
+          }
+
+        ]
+      },
+      {
+       "country_name": "!Ghana",
+       "country_code": "936",
+       "operators": [
+         {
+           "description": "Airtel",
+           "presets": [
+             {
+               "code": "Airtel",
+               "amount": "0"
+             }
+           ]
+         }
+       ]
+      }
+]

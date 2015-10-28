@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE"
+    android:padding="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10">
+
+    <EditText
+        android:id="@+id/SIR_ADDRESS_FULL_ADDRESS"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_address_full_address"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+    <EditText
+        android:id="@+id/SIR_ADDRESS_POSTCODE"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_below="@id/SIR_ADDRESS_FULL_ADDRESS"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_address_postal_code"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+    <RelativeLayout
+        android:id="@+id/SIR_ADDRESS_RT_RW_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SIR_ADDRESS_POSTCODE"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10">
+
+        <TextView
+            android:id="@+id/SIR_ADDRESS_DUMMY_RT_RW"
+            android:layout_width="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true" />
+
+        <EditText
+            android:id="@+id/SIR_ADDRESS_RT"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+
+            android:layout_toLeftOf="@id/SIR_ADDRESS_DUMMY_RT_RW"
+            android:background="@drawable/social_edittext"
+            android:gravity="center"
+            android:hint="@string/social_address_rt"
+            android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+            android:textSize="@dimen/TEXT_SIZE_20" />
+
+        <EditText
+            android:id="@+id/SIR_ADDRESS_RW"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+            android:layout_toRightOf="@id/SIR_ADDRESS_DUMMY_RT_RW"
+            android:background="@drawable/social_edittext"
+            android:gravity="center"
+            android:hint="@string/social_address_rw"
+            android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+            android:textSize="@dimen/TEXT_SIZE_20" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/SIR_ADDRESS_URBAN_VILLAGE"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_below="@id/SIR_ADDRESS_RT_RW_LAYOUT"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_address_urban_village"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+    <EditText
+        android:id="@+id/SIR_ADDRESS_DISTRICT"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_below="@id/SIR_ADDRESS_URBAN_VILLAGE"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_address_district"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+    <EditText
+        android:id="@+id/SIR_ADDRESS_DISTRICT_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_below="@id/SIR_ADDRESS_DISTRICT"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_address_district_1"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+    <EditText
+        android:id="@+id/SIR_ADDRESS_PROVINCE"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_below="@id/SIR_ADDRESS_DISTRICT_1"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_address_province"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+</RelativeLayout>

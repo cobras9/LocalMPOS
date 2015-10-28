@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string translatable="false" name="app_name">Mobilis</string>
+    <string translatable="false" name="SERVER_IP">14.1.43.12</string>
+    <string translatable="false" name="SERVER_PORT">2994</string>
+
+
+    <string name="APP_VERSION_INTERNAL">1.2.1</string>
+    <integer name="APP_VERSION_CODE">1</integer>
+    <string translatable="false" name="hintServerIP">---.---.---.---</string>
+    <string name="hintServerPORT" translatable="false">----</string>
+    <bool name="LOAD_TRANSFERCODES_FROM_SERVER">true</bool>
+    <bool name="CASH_IN_EXCHANGE_QUOTE_ON">false</bool>
+    <integer name="PIN_LENGTH">4</integer>
+    <bool name="AUTO_REQUEST_TRANSACTIONS">true</bool>
+    <bool name="USING_YOUTAP_WALLET">false</bool>
+    <bool name="PAY_PIN_REQUIRED">false</bool>
+    <integer name="REFERENCE_NUMBER_FORMAT_ERROR">99988</integer>
+    <string translatable="false" name="REFERENCE_NUMBER_FORMAT_ERROR_MESSAGE">Reference Number Entered is not in proper Format</string>
+
+    <!--FIXED Server request params -->
+    <string translatable="false" name="REQ_MESSAGE_TYPE">MessageType</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_LASTTRANSACTIONS">LastTransactions</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_MLOGIN">MerchantLogin</string>
+    <string translatable="false" name="REQ_OS_ANDROID">android</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_REGISTERTAG">RegisterTag</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_CUSTOMERTRANSACTION">CustomerTransaction</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_MERCHANTTRANSACTION">MerchantTransaction</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_EXCHANGE_QUOTATION">ExchangeQuotation</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_EVD">EvdTransaction</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_REMMITANCE_SEND">RemittanceSend</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_REMMITANCE_CLAIM">RemittanceClaim</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_M2CR">M2CR</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_TRANSFER">Transfer</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_TRANSFERCODESGET">TRANSFERCODESGET</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_EVOUCHERGET">EVOUCHERGET</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_TXLSEARCHT">TransactionSearch</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_GETBALANCE">BalanceGet</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_SEARCHTXL">TransactionSearch</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_CHANGEPIN">ChangeMerchantPin</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_CUSTOMER_SEARCH">CustomerSearch</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_CUSTOMER_UPDATE">CustomerUpdate</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_CUSTOMER_ADDITIONAL_DATA">CustomerAdditionalData</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_CRASH_REPORT">CrashReport</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_GENERATE_TOKEN">TokenTransaction</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_TAP">TAP</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_TAP_STATUS">TAP_STATUS</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_TAP_MESSAGE">TAP_MESSAGE</string>
+    <string translatable="false" name="REQ_SOURCE_CURRENCY">SourceCurrency</string>
+    <string translatable="false" name="REQ_CHANNEL">Channel</string>
+    <string translatable="false" name="MPOS">MPOS</string>
+    <string translatable="false" name="REQ_PAYMENTTYPE">PaymentType</string>
+    <string translatable="false" name="REQ_BILLPAYEE_REFERENCE">BillPayeeReference</string>
+    <string translatable="false" name="REQ_DESTINATION">Destination</string>
+    <string translatable="false" name="REQ_DESTINATION_CODE">DestinationCode</string>
+    <string translatable="false" name="REQ_ORIGINCODE">OriginCode</string>
+    <string translatable="false" name="REQ_BILLPAYEE_ID">BillPayeeID</string>
+    <string translatable="false" name="REQ_TRANSACTION_TYPE">TRANSACTIONTYPE</string>
+    <string translatable="false" name="REQ_SMARTPHONE">Smartphone</string>
+    <string translatable="false" name="REQ_ORIGINCODE_VALUE">VFMM</string>
+    <string translatable="false" name="REQ_DESTINATIONCODE_VFMM_VALUE">VFMM</string>
+    <string translatable="false" name="REQ_C2CW">C2CW</string>
+    <string translatable="false" name="REQ_BDST">BDST</string>
+    <!-- BUTI, BWAT (currently water not set up) -->
+    <string translatable="false" name="REQ_BUTI">BUTI</string>
+    <string translatable="false" name="REQ_C2CA">C2CA</string>
+    <string translatable="false" name="REQ_C2CT">C2ET</string>
+    <string translatable="false" name="REQ_TERMINAL_ID">TerminalId</string>
+    <string translatable="false" name="REQ_BALANCE_TYPE">BalanceType</string>
+    <string translatable="false" name="REQ_CUSTOMER">CUSTOMER</string>
+    <string translatable="false" name="REQ_MERCHANT">MERCHANT</string>
+    <string translatable="false" name="REQ_CLIENT_PIN">MerchantPin</string>
+    <string translatable="false" name="REQ_PRN_DSP_FORMAT">PrnDspFormat</string>
+    <string translatable="false" name="REQ_REQUES_TBLOCK">RequestBlock</string>
+    <string translatable="false" name="REQ_TXN_HISTORY_COUNT">TxnHistoryCount</string>
+    <string translatable="false" name="REQ_CUSTOMER_PIN">CustomerPin</string>
+    <string translatable="false" name="REQ_CLIENT_NEWPIN">NewPin</string>
+    <string translatable="false" name="REQ_CLIENT_ID">MerchantId</string>
+    <string translatable="false" name="REQ_TAG_DATA">TagData</string>
+    <string translatable="false" name="REQ_CUSTOMER_ID">CustomerId</string>
+    <string translatable="false" name="REQ_TXL_SEARCH_DATA">TransactionSearchData</string>
+    <string translatable="false" name="REQ_TRANSACTION_ID">"TransactionId</string>
+    <string translatable="false" name="REQ_APP">App</string>
+    <string translatable="false" name="REQ_OS">OS</string>
+    <string translatable="false" name="REQ_APP_IR">MWallet</string>
+    <string translatable="false" name="REQ_PAYMENT_TYPE">PaymentType</string>
+    <string translatable="false" name="REQ_WORKING_CURRENCY">WorkingCurrency</string>
+    <string translatable="false" name="REQ_DESTINATION_CURRENCY">DestinationCurrency</string>
+    <string translatable="false" name="REQ_ISSUER">Issuer</string>
+    <string translatable="false" name="REQ_DENOMINATION">Denomination</string>
+    <string translatable="false" name="REQ_QUANTITY">Quantity</string>
+    <string translatable="false" name="REQ_WORKING_AMOUNT">WorkingAmount</string>
+    <string translatable="false" name="REQ_CUST_SEARCH_DATA">CustomerSearchData</string>
+    <string translatable="false" name="REQ_RECEPIENT_DATA">RecipientData</string>
+    <string translatable="false" name="REQ_CUST_DATA">CustomerData</string>
+    <string translatable="false" name="REQ_ID_VERIFIED">IdVerified</string>
+    <string translatable="false" name="REQ_ID_NUMBER">IdNumber</string>
+    <string translatable="false" name="REQ_ID_TYPE">IdType</string>
+    <string translatable="false" name="REQ_CUST_ID">CustomerId</string>
+    <string translatable="false" name="REQ_IMIS">IMIS</string>
+    <string translatable="false" name="REQ_ITEM">Item</string>
+    <string translatable="false" name="REQ_TAG">TagData</string>
+    <string translatable="false" name="REQ_TAGTYPE">TagType</string>
+    <string translatable="false" name="REQ_STAFF_PIN">PaymentType</string>
+    <string translatable="false" name="REQ_NFCTAGID">NFCTagId</string>
+    <string translatable="false" name="REQ_GIVENNAME">GivenName</string>
+    <string translatable="false" name="REQ_SURNAME">SurName</string>
+    <string translatable="false" name="REQ_DOB">DOB</string>
+    <string translatable="false" name="REQ_IMSI">IMSI</string>
+    <string translatable="false" name="REQ_DESCRIPTION">Desc</string>
+    <string translatable="false" name="REQ_MSISDN">MSISDN</string>
+    <string translatable="false" name="REQ_DATE">"Date</string>
+    <string translatable="false" name="REQ_TIME">"Time</string>
+    <string translatable="false" name="REQ_MOBMONPIN">"MobMonPin</string>
+    <string translatable="false" name="REQ_AMOUNT">"amount</string>
+    <string translatable="false" name="REQ_CHECKSUM">Checksum</string>
+    <string translatable="false" name="REQ_CLAIM_CODE">ClaimCode</string>
+    <string translatable="false" name="REQ_CONTACT_PHONE">ContactPhone</string>
+    <string translatable="false" name="REQ_EMAIL_ADDRESS">EmailAddress</string>
+    <string translatable="false" name="REQ_CUSTOMER_TYPE">CustomerType</string>
+    <string translatable="false" name="REQ_SUBSCRIBER_ADDRESS">SubscriberAddress</string>
+    <string translatable="false" name="REQ_ADDRESS">AddressLine</string>
+    <string translatable="false" name="REQ_ADDRESS_1">AddressLine1</string>
+    <string translatable="false" name="REQ_ADDRESS_2">AddressLine2</string>
+    <string translatable="false" name="REQ_STATE">State</string>
+    <string translatable="false" name="REQ_CITY">City</string>
+    <string translatable="false" name="REQ_COUNTRY">Country</string>
+    <string translatable="false" name="REQ_CREDIT_CARD_NUMBER">CardId</string>
+    <string translatable="false" name="REQ_CREDIT_CARD_EXPIRY">CardExpiry</string>
+    <string translatable="false" name="REG_SERVICES">Registration Services</string>
+    <string translatable="false" name="REG_SERVICES_CUSTOMER">Customer</string>
+    <string translatable="false" name="REG_SERVICES_NEW">New</string>
+    <string translatable="false" name="REG_SERVICES_EXISTING">Existing</string>
+    <string translatable="false" name="REG_SERVICES_TAGS">Tags</string>
+    <string translatable="false" name="REG_SERVICES_TAGS_PRIMARY">Primary</string>
+    <string translatable="false" name="REG_SERVICES_TAGS_SECONDARY">Secondary</string>
+    <string translatable="false" name="REG_SERVICES_TAGS_REPLACE">Replace</string>
+    <string translatable="false" name="REG_SERVICES_ADDITIONAL">Additional F/Prints</string>
+    <string translatable="false" name="REG_SERVICES_CUSTOMER_DETAILS">Customer Details</string>
+    <string translatable="false" name="REG_SERVICES_NEW_STEP_ONE">Customer Details</string>
+    <string translatable="false" name="REG_SERVICES_NEW_STEP_TWO">Address</string>
+    <string translatable="false" name="REG_SERVICES_NEW_STEP_THREE">Identification</string>
+    <string translatable="false" name="REQ_ASSIGNEDTID">AssignedTid</string>
+    <string translatable="false" name="REQ_GEOLOCATION">GeoLocation</string>
+    <string translatable="false" name="REQ_CUSTOMER_CREATE">CustomerCreate</string>
+    <string translatable="false" name="ATOMIC_CUSTOMER_CREATE">AtomicCustomerCreate</string>
+    <string translatable="false" name="REGISTER_TAG">RegisterTag</string>
+    <string translatable="false" name="REQ_MESSAGE_CHANNEL">CHANNEL</string>
+    <string translatable="false" name="CASH_OUT_VOUCHER">Cash Out Voucher</string>
+
+
+
+    <string translatable="false" name="SELL_VOUCHER">Sell EVD</string>
+    <string translatable="false" name="CASH_IN_VOUCHER">EVD Transfer</string>
+    <string translatable="false" name="BUY_VOUCHER">Buy EVD</string>
+    <string translatable="false" name="BUY_BULK_VOUCHER">Buy Bulk EVD</string>
+    <string translatable="false" name="GENERATE_TOKEN">Generate Token</string>
+    <string translatable="false" name="TRANSACTIONID_BASE">000000000001</string>
+    <string translatable="false" name="STRING_ZERO_SPACE">"</string>
+    <string translatable="false" name="ZERO_STRING">"0</string>
+    <string translatable="false" name="RESPONSE_MESSAGE">"Message=</string>
+    <string translatable="false" name="PAYMENT_TYPE_MERCHANTPAYMENT">C2MP</string>
+    <string translatable="false" name="PAYMENT_TYPE_SELLTOPUP">C2MT</string>
+    <string translatable="false" name="PAYMENT_TYPE_SENDTOPUP">M2CR</string>
+    <string translatable="false" name="PAYMENT_TYPE_DEPOSIT">C2MD</string>
+    <string translatable="false" name="PAYMENT_TYPE_WITHDRAW">C2MW</string>
+    <string translatable="false" name="PAYMENT_TYPE_TAGVIEWER">C2MP</string>
+    <string translatable="false" name="PAYMENT_TYPE_C2MP">C2MP</string>
+
+    <string translatable="false" name="PAYMENT_TYPE_BANK">C2CW</string>
+    <string translatable="false" name="PAYMENT_TYPE_OUTTXF">OUTTXF</string>
+    <string translatable="false" name="PAYMENT_TYPE_EVD">EVD</string>
+
+    <string translatable="false" name="EQUAL">=</string>
+    <string translatable="false" name="COMMA">,</string>
+    <string translatable="false" name="MENU_B">MenuB=</string>
+    <string translatable="false" name="MENU_C">MenuC=</string>
+    <string translatable="false" name="MENU_D">MenuD=</string>
+    <string translatable="false" name="MENU_F">MenuF=</string>
+    <string translatable="false" name="MENU_G">MenuG=</string>
+    <string translatable="false" name="DELIMITER">,</string>
+    <string translatable="false" name="NEWLINE_ENDLINE_CHAR">[\n\r]</string>
+    <string translatable="false" name="CUSTOMER_REGISTRATION">Customer Registration</string>
+    <string translatable="false" name="LABEL_SUBSCRIBER">SUBSCRIBER</string>
+    <string translatable="false" name="LABEL_AGENT">AGENT</string>
+    <string translatable="false" name="LABEL_SUPERAGENT">SUPERAGENT</string>
+    <string translatable="false" name="LABEL_MERCHANT">MERCHANT</string>
+    <string translatable="false" name="LABEL_MMSTAFF">MMSTAFF</string>
+    <string translatable="false" name="LABEL_FEE">Fee</string>
+    <string translatable="false" name="TAGTYPE_PRIMARY">PRIMARY</string>
+    <string translatable="false" name="TAGTYPE_SECONDARY">SECONDARY</string>
+    <string translatable="false" name="TAGTYPE_REPLACE">REPLACE</string>
+    <string translatable="false" name="OPEN_BRACKET">(</string>
+    <string translatable="false" name="CLOSE_BRACKET">)</string>
+    <string translatable="false" name="STATUS_INITIALVALUE">-901</string>
+    <string translatable="false" name="STATUS_SOCKET_EXCEPTION">-902</string>
+    <string translatable="false" name="STATUS_OK">0</string>
+    <string translatable="false" name="STATUS_WRONG_PIN_ACCOUTN">3</string>
+    <string translatable="false" name="STATUS_SOCKET_TIMEOUT">-904</string>
+    <string translatable="false" name="DB_SERVER_IP">ServerIP</string>
+    <string translatable="false" name="DB_SERVER_PORT">ServerPort</string>
+    <string translatable="false" name="DB_TXL_GETBALANCE">Balance</string>
+    <string translatable="false" name="DB_TXL_CHANGEPIN">ChangePIN</string>
+    <string translatable="false" name="DB_TXL_LOGIN">LOGIN</string>
+    <string translatable="false" name="DB_TXL_PAYMENT">MerchantPayment</string>
+    <string translatable="false" name="DB_TXL_TXLSEARCH">TxlSearch</string>
+    <string translatable="false" name="EXTRA_DATA_NFCID">nfcId</string>
+    <string translatable="false" name="EXTRA_DATA_PRICE">price</string>
+    <string translatable="false" name="EXTRA_DATA_DESC">desc</string>
+    <string translatable="false" name="EXTRA_DATA_EMBDEDDED_CLIENTID">clientId</string>
+    <string translatable="false" name="scan_bar_image_order">99</string>
+    <string translatable="false" name="BillPayment_Cable_TV">Cable TV</string>
+    <string translatable="false" name="BillPayment_Utilities">Utilities</string>
+    <string translatable="false" name="BillPayments">Bill Payments</string>
+    <string translatable="false" name="REDEEM_VOUCHER">Redeem Voucher</string>
+    <string translatable="false" name="REQUESTS_NUM">1</string>
+    <string translatable="false" name="ONBOARD_NFC">both</string>
+    <string translatable="false" name="DEFAULT_CURRENCY">NZD</string>
+    <string translatable="false" name="REQ_TAG_OWNER_NAME">TagOwnerName</string>
+    <string translatable="false" name="REQ_BUSINESS_NAME">BusinessName</string>
+    <integer translatable="false" name="MINIMUM_PIN_LENGTH">4</integer>
+<!--    <string name="Drawer_BillPayments">Bill Payments</string>
+    <string name="TAG_REGISTRATION">Tag Registration</string>
+    <string name="CHANGE_PIN">Change PIN</string>
+    <string name="TOP_UP">Top up</string>
+    <string name="CONFIG_SERVER">Server Configuration</string>
+    <string name="SELECT_CURRENCY">Select Currency</string>
+    <string name="GIVE_CASH_OUT">Give Cash Out</string>
+    <string name="MAKE_PAYMENT">Make Payment</string>
+    -->
+    <string translatable="false" name="message_track_data_error_corrupted">The track 1 and track 2 data may be corrupted. Please swipe the card again!</string>
+    <string translatable="false" name="message_track1_data_error_corrupted">The track 1 data may be corrupted. Please swipe the card again!</string>
+    <string translatable="false" name="message_track2_data_error_corrupted">The track 2 data may be corrupted. Please swipe the card again!</string>
+    <string translatable="false" name="message_track_data_error_decrypted">The track data cannot be decrypted. Please swipe the card again!</string>
+    <string translatable="false" name="message_track_data_error_checksum">The track data contains checksum error. Please swipe the card again!</string>
+    <string translatable="false" name="message_track_data_error_ksn">The key serial number does not match with the settings.</string>
+    <string translatable="false" name="message_track_data_error_ec">The encryption counter is invalid.</string>
+
+
+    <string translatable="false" name="MPOS_PROFILE_IDENTITY_POOL_ID">us-east-1:43b9e304-499a-4616-b8db-850ffdc8b2af</string>
+    <string translatable="false" name="GLOBAL_IDENTITY_ID">us-east-1:1e519b42-497c-49e1-856c-96ba83f5d08c</string>
+    <string translatable="false" name="GLOBAL_DATASET_NAME">GLOBAL</string>
+    <string translatable="false" name="GLOBAL_RECORD_APIKEY">x-api-key</string>
+    <string translatable="false" name="GLOBAL_RECORD_URL">URL</string>
+<string translatable="false" name="AWS_TERMINAL_CONFS">TERMINAL_CONFS</string>
+    <string translatable="false" name="AWS_TERMINAL_CONFS_PROFILE">GHANA</string>
+    <!-- Hack menu configuration settings key and UI naming-->
+    <string translatable="false" name="CONF_PAY_PIN_REQUIRED_KEY">PAY_PIN_REQUIRED_KEY</string>
+    <string translatable="false" name="CONF_AWS_TERMINAL_KEY">CONF_AWS_TERMINAL_KEY</string>
+    <string translatable="false" name="CONF_USING_USSD">Using USSD</string>
+    <string translatable="false" name="CONF_SAVE_BTN">Save</string>
+    <string-array translatable="false"  name="USSD_VALUES">
+        <item>True</item>
+        <item>False</item>
+    </string-array>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_TERMINAL_REGISTRATION">RegisterTerminal</string>
+    <string translatable="false" name="SERVER_IP_NOT_ENTERED">Please enter server IP.</string>
+    <string translatable="false" name="SERVER_PORT_NOT_ENTERED">Please enter server port.</string>
+
+
+    <string translatable="false" name="COMMISSION_TRANSFER">Commission Transfer</string>
+    <string translatable="false" name="MERCHANT_VOUCHER">ATM Cash Out</string>
+
+    <string translatable="false" name="REQ_MESSAGE_TYPE_MERCHANT_COMMISSION_TRANSFER">MerchantCommissionTransfer</string>
+    <string translatable="false" name="REQ_MESSAGE_TYPE_MERCHANT_VOUCHER">MerchantVoucher</string>
+    <string translatable="false" name="CONF_ITEM_LABEL">Label</string>
+    <string translatable="false" name="CONF_ITEM_KEY">Key</string>
+    <string translatable="false" name="CONF_ITEM_VALUE">Value</string>
+    <string translatable="false" name="CONF_ITEM_DIVIDER"> : </string>
+    <string translatable="false" name="REQ_TAG_OWNER_NAME_HINT">Tag owner name</string>
+    <string translatable="false" name="CONF_TERMINAL_PROFILE">Profiles</string>
+    <string translatable="false" name="general_flag_hint">Enter 00100 to enable tag owner name else 00000</string>
+    <string translatable="false" name="IMAGE_UPLOAD_IP">10.0.0.62</string>
+    <string translatable="false" name="IMAGE_UPLOAD_PORT">9180</string>
+    <string translatable="false" name="IMAGE_URL">/mob-platform/rest/customer/</string>
+    <string translatable="false" name="IMAGE_URL_SUFFIX">/photo</string>
+    <string translatable="false" name="IMAGE_UPLOAD_USER">trusted-api-client</string>
+    <string translatable="false" name="IMAGE_UPLOAD_PASSWORD">3cl1ps3</string>
+    <!-- Demo wallet-->
+    <bool name="DEMO_WALLET_WAIT_FOR_PIN">false</bool>
+    <string translatable="false" name="PIN_SYNC_SERVER_URL">https://7f3yoqzjqk.execute-api.us-west-2.amazonaws.com/prod/merchantPinRetrive/</string>
+    <string translatable="false" name="PIN_SYNC_X_API_KEY">i86ple7IKBIhm2fTA92Y7AZC7fmL0joY1BLtaui0</string>
+    <string translatable="false" name="customer_pin_not_found">Retrieving customer\'s pin failed, please try again.</string>
+    <string translatable="false" name="tag_lost_please_retry">Tag lost, please try again.</string>
+
+    <string-array name="seek_bar_with_strings_items">
+        <item>Personal</item>
+        <item>Birth</item>
+        <item>Address</item>
+        <item>Docs</item>
+        <item>Confirmation</item>
+    </string-array>
+
+</resources>

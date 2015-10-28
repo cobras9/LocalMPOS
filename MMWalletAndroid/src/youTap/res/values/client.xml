@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string translatable="false" name="app_name">youtap!</string>
+    <string translatable="false" name="SERVER_IP">14.1.43.12</string>
+    <string translatable="false" name="SERVER_PORT">2994</string>
+    <string translatable="false" name="DEFAULT_CURRENCY">NZD</string>
+    <color name="ACTIONBAR_THEME_COLOR">@color/YOUTAP_FF_18B0E6</color>
+    <color name="TAB_SEP_TOP">@color/YOUTAP_FF_18B0E6</color>
+    <color name="APP_FRAGMENT_BACKGROUND_COLOR">@color/WHITE</color>
+    <color name="APP_MAIN_COLOR">@color/YOUTAP_FF_18B0E6</color>
+    <color name="TAB_SEP_BOTTOM">@color/YOUTAP_FF_18B0E6</color>
+    <color name="QUICKLINK_TEXT_COLOR">@color/YOUTAP_FF_18B0E6</color>
+    <color name="QUICKLINK_BACKGROUND_COLOR">@color/TRANSPARENT</color>
+
+
+    <color name="TAB_BACKGROUND_NORMAL">@color/YOUTAP_FF_1A97C5</color>
+    <color name="TAB_BACKGROUND_PRESSED">@color/YOUTAP_FF_18B0E6</color>
+    <color name="BUTTON_COLOR">@color/YOUTAP_FF_0DA6DD</color>
+    <color name="BUTTON_COLOR_PRESSED">@color/YOUTAP_FF_1A97C5</color>
+
+
+    <color name="TRANSACTION_LIST_COLOR">@color/WHITE</color>
+    <color name="TRANSACTION_LIST_BACKGROUND_COLOR">@color/YOUTAP_FF_18B0E6</color>
+    <color name="MENU_BACKGROUND_COLOR">@color/YOUTAP_FF_18B0E6</color>
+    <style name="ActionBarTabStyle" parent="@android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/ACTIONBAR_THEME_COLOR</item>
+        <item name="android:height">65dp</item>
+    </style>
+    <color name="TEXT_RESULT_COLOR">@color/YOUTAP_FF_18B0E6</color>
+    <color name="MAIN_FRAGMENT_BACKGROUND_COLOR">@color/WHITE</color>
+
+    <!-- Customer colors definitions start -->
+
+   <!-- <color name="YOUTAP_FF_18B0E6">#FF00AEEF</color>-->
+    <color name="YOUTAP_FF_666666">#FF666666</color>
+    <color name="YOUTAP_FF_333333">#FF333333</color>
+    <color name="YOUTAP_FF_999999">#FF999999</color>
+
+
+    <color name="YOUTAP_FF_1A97C5">#FF1A97C5</color>
+    <color name="YOUTAP_FF_0DA6DD">#FF0DA6DD</color>
+    <color name="YOUTAP_FF_18B0E6">#FF18B0E6</color>
+    <!-- Customer colors definitions start-->
+    <color name="TEXT_REGISTRATION_NORMAL">@color/YOUTAP_FF_18B0E6</color>
+    <color name="TEXT_REGISTRATION_ERROR">@color/YOUTAP_FF_18B0E6</color>
+    <bool name="AUTO_REQUEST_TRANSACTIONS">true</bool>
+    <string translatable="false" name="ONBOARD_NFC">both</string>
+    <color name="QUICK_PAY_PRESSED">@color/YOUTAP_FF_1A97C5</color>
+    <color name="QUICK_PAY_NORMAL">@color/YOUTAP_FF_18B0E6</color>
+
+    <color name="SUB_HEADER_TEXT_COLOR">@color/YOUTAP_FF_1A97C5</color>
+    <color name="TRANSACTION_HEADER_TEXT_COLOR">@color/YOUTAP_FF_333333</color>
+    <color name="TAB_TEXT_COLOR">@color/YOUTAP_FF_333333</color>
+    <color name="TAB_SEP_COLOR">@color/WHITE</color>
+    <color name="TAB_PRESSED">@color/YOUTAP_FF_333333</color>
+    <color name="TAB_NORMAL">@color/YOUTAP_FF_333333</color>
+    <color name="BALANCE_BACKGROUND_COLOR">@color/YOUTAP_FF_0DA6DD</color>
+    <color name="MENU_NORMAL_BACKGROUND_COLOR">@color/YOUTAP_FF_18B0E6</color>
+    <color name="MENU_PRESSED_BACKGROUND_COLOR">@color/YOUTAP_FF_1A97C5</color>
+    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">@color/TRANSPARENT_BLACK</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">@color/YOUTAP_FF_1A97C5</color>
+    <bool name="PAY_PIN_REQUIRED">false</bool>
+    <bool name="DEMO_WALLET_WAIT_FOR_PIN">true</bool>
+</resources>

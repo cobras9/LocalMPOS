@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE"
+    android:padding="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10">
+
+    <EditText
+        android:id="@+id/SIR_BIRTH_MAIDEN_NAME"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_birth_maiden_name"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+    <EditText
+        android:id="@+id/SIR_BIRTH_PLACE"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_below="@id/SIR_BIRTH_MAIDEN_NAME"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_birth_birth_place"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+    <EditText
+        android:id="@+id/SIR_BIRTH_DATE"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_below="@id/SIR_BIRTH_PLACE"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_birth_birth_date"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+</RelativeLayout>

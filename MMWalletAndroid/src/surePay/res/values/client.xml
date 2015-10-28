@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string translatable="false" name="app_name">SurePay</string>
+    <string translatable="false" name="SERVER_IP">14.1.43.12</string>
+    <string translatable="false" name="SERVER_PORT">2994</string>
+    <color name="ACTIONBAR_THEME_COLOR">@color/SUREPAY_FF_056DA8</color>
+    <color name="TAB_SEP_TOP">@color/SUREPAY_FF_007CBF</color>
+    <color name="APP_FRAGMENT_BACKGROUND_COLOR">@color/WHITE</color>
+    <color name="APP_MAIN_COLOR">@color/SUREPAY_FF_007CBF</color>
+    <color name="TAB_SEP_BOTTOM">@color/SUREPAY_FF_007CBF</color>
+    <color name="QUICKLINK_TEXT_COLOR">@color/SUREPAY_FF_007CBF</color>
+    <color name="QUICKLINK_BACKGROUND_COLOR">@color/TRANSPARENT</color>
+
+    <color name="TAB_NORMAL">@color/SUREPAY_FF_007CBF</color>
+    <color name="TAB_PRESSED">@color/WHITE</color>
+    <color name="TAB_BACKGROUND_NORMAL">@color/WHITE</color>
+    <color name="TAB_BACKGROUND_PRESSED">@color/SUREPAY_FF_056DA8</color>
+    <color name="BUTTON_COLOR">@color/SUREPAY_FF_007CBF</color>
+    <color name="BUTTON_COLOR_PRESSED">@color/SUREPAY_FF_056DA8</color>
+    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">@color/TRANSPARENT_BLACK</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">@color/SUREPAY_FF_007CBF</color>
+    <color name="BALANCE_BACKGROUND_COLOR">@color/SUREPAY_FF_056DA8</color>
+    <color name="TRANSACTION_LIST_COLOR">@color/SUREPAY_FF_007CBF</color>
+    <color name="TRANSACTION_LIST_BACKGROUND_COLOR">@color/WHITE</color>
+    <color name="MENU_BACKGROUND_COLOR">@color/SUREPAY_FF_007CBF</color>
+    <style name="ActionBarTabStyle" parent="@android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/ACTIONBAR_THEME_COLOR</item>
+        <item name="android:height">65dp</item>
+    </style>
+    <color name="TEXT_RESULT_COLOR">@color/SUREPAY_FF_007CBF</color>
+    <color name="MAIN_FRAGMENT_BACKGROUND_COLOR">@color/WHITE</color>
+
+    <!-- Customer colors definitions start -->
+
+    <color name="SUREPAY_FF_007CBF">#FF007CBF</color>
+    <color name="SUREPAY_FF_056DA8">#FF056DA8</color>
+    <color name="SUREPAY_ORANGE">#FFEB691B</color>
+<!--    <color name="YOUTAP_FF_333333">#FF333333</color>
+    <color name="YOUTAP_FF_999999">#FF999999</color>-->
+    <!-- Customer colors definitions start-->
+    <color name="TEXT_REGISTRATION_NORMAL">@color/SUREPAY_FF_007CBF</color>
+    <color name="TEXT_REGISTRATION_ERROR">@color/SUREPAY_FF_007CBF</color>
+    <bool name="AUTO_REQUEST_TRANSACTIONS">true</bool>
+    <string translatable="false" name="ONBOARD_NFC">both</string>
+    <color name="QUICK_PAY_PRESSED">@color/SUREPAY_FF_007CBF</color>
+
+
+    <color name="LOGIN_KEYPAD_BUTTON_TEXT_COLOR">@color/SUREPAY_ORANGE</color>
+    <color name="LOGIN_TEXT_COLOR">@color/SUREPAY_FF_007CBF</color>
+    <color name="LOGGING_PROGRESS_TEXT_COLOR">@color/SUREPAY_FF_007CBF</color>
+</resources>

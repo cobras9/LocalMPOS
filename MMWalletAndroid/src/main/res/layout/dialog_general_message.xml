@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingBottom="@dimen/edit_text_margin_bottom"
+    android:paddingTop="@dimen/edit_text_margin_top"
+    android:background="@drawable/customer_creation_background">
+
+    <TextView
+        android:id="@+id/Dialog_General_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:gravity="center"
+        android:paddingLeft="@dimen/edit_text_padding_left_right"
+        android:paddingRight="@dimen/edit_text_padding_left_right"
+        android:textColor="@color/TEXT_REGISTRATION_ERROR"
+        android:textSize="@dimen/edit_text_size"
+        android:singleLine="false"
+        />
+
+    <Button
+        android:id="@+id/Dialog_General_Message_OK_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Dialog_General_message"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+        android:layout_marginLeft="@dimen/dialog_padding_left_right"
+        android:layout_marginRight="@dimen/dialog_padding_left_right"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:background="@drawable/error_button_background"
+        android:text="@string/OK"
+        android:textColor="@color/registration_register_button_text_color"
+        android:textSize="@dimen/title_size" />
+
+</RelativeLayout>
+
+
+

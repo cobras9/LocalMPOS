@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string translatable="false" name="app_name">DigiCel</string>
+    <string translatable="false" name="SERVER_IP">10.0.0.62</string>
+    <string translatable="false" name="SERVER_PORT">2993</string>
+    <string name="COLOR_RED" translatable="false">#F62217</string>
+    <string name="REQUESTS_NUM" translatable="false">1</string>
+
+    <bool name="supportExternalInternalTopup">true</bool>
+    <bool name="PAY_PIN_REQUIRED">false</bool>
+    <color name="OFF_WHITE">@color/CC_WHITE</color>
+    <color name="APP_MAIN_COLOR">@color/DIGICEL_FF_EE3124</color>
+    <color name="ACTIONBAR_THEME_COLOR">@color/DIGICEL_FF_EE3124</color>
+    <color name="APP_MAIN_TEXT_COLOR">@color/WHITE</color>
+    <color name="QUICKPAY_BACKGROUND">@color/DIGICEL_FF_EE3124</color>
+    <color name="APP_MAIN_COLOR_DARKER">@color/DIGICEL_FF_A90000</color>
+    <!--<color name="TAB_PRESSED">@color/DIGICEL_FF_FF0800</color>-->
+    <color name="TAB_PRESSED">@color/WHITE</color>
+    <color name="TAB_BACKGROUND_PRESSED">@color/DIGICEL_FF_FF0800</color>
+    <color name="TAB_SEP_TOP">@color/DIGICEL_88_EE3124</color>
+    <color name="QUICK_PAY_PRESSED">@color/DIGICEL_88_EE3124</color>
+    <color name="TAB_SEP_BOTTOM">@color/DIGICEL_88_EE3124</color>
+    <color name="BUTTON_COLOR">@color/DIGICEL_FF_A10005</color>
+    <color name="BUTTON_COLOR_PRESSED">@color/DIGICEL_FF_B65E61</color>
+    <color name="CUST_REG_CELL_SHAPE_BORDER">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_FILL">@color/DIGICEL_FF_EE3124</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_BORDER">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_FILL">@color/WHITE</color>
+    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">@color/DIGICEL_FF_EE3124</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">@color/DIGICEL_FF_A90000</color>
+    <dimen name="ACCOUNT_BALANCE_HEIGHT">132dp</dimen>
+    <color name="APP_FRAGMENT_BACKGROUND_COLOR">@color/DIGICEL_FF_EE3124</color>
+    <!--Customer color definitions start -->
+    <color name="DIGICEL_FF_EE3124">#FFEE3124</color>
+    <color name="DIGICEL_FF_A90000">#FFA90000</color>
+    <color name="DIGICEL_FF_EF1C23">#FFEF1C23</color>
+    <color name="DIGICEL_88_EF1C23">#88EF1C23</color>
+    <color name="DIGICEL_FF_A10005">#FFA10005</color>
+    <color name="DIGICEL_FF_FF0800">#FFFF0800</color>
+    <color name="DIGICEL_FF_B65E61">#FFB65E61</color>
+    <color name="DIGICEL_FF_F62217">#FFF62217</color>
+    <color name="DIGICEL_88_EE3124">#88EE3124</color>
+    <!--Customer color definitions end -->
+</resources>

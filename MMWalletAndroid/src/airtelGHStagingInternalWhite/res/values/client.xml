@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name" translatable="false">AirtelGHInternal</string>
+<!--    <string name="SERVER_IP" translatable="false">172.26.98.184</string>
+    <string name="SERVER_PORT" translatable="false">2993</string>-->
+    <string name="SERVER_IP" translatable="false">14.1.43.12</string>
+    <string name="SERVER_PORT" translatable="false">2994</string>
+    <string name="REQUESTS_NUM" translatable="false">1</string>
+    <string name="DEFAULT_CURRENCY" translatable="false">GHS</string>
+    <bool name="supportExternalInternalTopup">true</bool>
+    <bool name="PAY_PIN_REQUIRED">false</bool>
+    <color name="OFF_WHITE">#CCFFFFFF</color>
+    <color name="ACTIONBAR_THEME_COLOR">@color/AIRTEL_RED_FF_ED1C24</color>
+    <color name="APP_MAIN_TEXT_COLOR">@color/AIRTEL_RED_FF_ED1C24</color>
+
+
+
+
+    <!--<color name="TAB_PRESSED">#ff0800</color>-->
+    <color name="TAB_PRESSED">@color/AIRTEL_WHITE_FF_FFFFFF</color>
+
+    <color name="TAB_BACKGROUND_PRESSED">#ff0800</color>
+
+
+
+
+    <color name="CUST_REG_CELL_SHAPE_BORDER">@color/AIRTEL_WHITE_FF_FFFFFF</color>
+    <color name="CUST_REG_CELL_SHAPE_FILL">@color/AIRTEL_RED_FF_ED1C24</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_BORDER">@color/AIRTEL_WHITE_FF_FFFFFF</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_FILL">@color/AIRTEL_WHITE_FF_FFFFFF</color>
+
+    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">@color/AIRTEL_RED_FF_ED1C24</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">#a90000</color>
+
+
+    <!--refactored -->
+    <color name="AIRTEL_RED_FF_ED1C24">#FFED1C24</color>
+    <color name="AIRTEL_WHITE_FF_FFFFFF">#FFFFFFFF</color>
+    <color name="AIRTEL_FF_A90000">#FFA90000</color>
+
+    <color name="APP_FRAGMENT_BACKGROUND_COLOR">@color/AIRTEL_WHITE_FF_FFFFFF</color>
+    <color name="TRANSACTION_LIST_COLOR">@color/AIRTEL_RED_FF_ED1C24</color>
+    <color name="TEXT_REGISTRATION_NORMAL">@color/AIRTEL_RED_FF_ED1C24</color>
+    <color name="BUTTON_COLOR">@color/AIRTEL_RED_FF_ED1C24</color>
+    <color name="BUTTON_COLOR_PRESSED">@color/AIRTEL_FF_A90000</color>
+    <color name="APP_MAIN_COLOR_DARKER">@color/AIRTEL_FF_A90000</color>
+    <color name="APP_MAIN_COLOR">@color/AIRTEL_WHITE_FF_FFFFFF</color>
+    <color name="ABOUT_TEXT_COLOR">@color/AIRTEL_RED_FF_ED1C24</color>
+    <color name="TEXT_COLOR">@color/AIRTEL_RED_FF_ED1C24</color>
+    <color name="LOGIN_TEXT_COLOR">@color/AIRTEL_RED_FF_ED1C24</color>
+    <color name="TEXT_RESULT_COLOR">@color/TEXT_COLOR</color>
+    <color name="QUICKPAY_BACKGROUND">@color/AIRTEL_WHITE_FF_FFFFFF</color>
+    <color name="QUICK_PAY_PRESSED">@color/AIRTEL_FF_A90000</color>
+    <color name="TAB_SEP_TOP">@color/AIRTEL_RED_FF_ED1C24</color>
+    <color name="TAB_SEP_BOTTOM">@color/AIRTEL_FF_A90000</color>
+    <color name="TAB_BACKGROUND_NORMAL">@color/AIRTEL_WHITE_FF_FFFFFF</color>
+    <style name="Theme.MMWallet"  parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:button">@android:anim/fade_in</item>
+        <item name="android:listSelector">#81D4F0</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="actionMenuTextColor">@color/ACTIONBAR_THEME_COLOR</item>
+        <item name="android:actionMenuTextColor">@color/ACTIONBAR_THEME_COLOR</item>
+        <item name="android:actionBarStyle">@style/ActionBarTabStyle</item>
+        <!--<item name="android:itemBackground">@color/TAB_SEP_TOP</item>-->
+        <!--<item name="android:actionBarItemBackground">@color/APP_MAIN_COLOR</item>-->
+        <!--<item name="android:actionBarTabStyle">@style/ActionBarTabStyle</item>-->
+    </style>
+<!--    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/AIRTEL_RED_FF_ED1C24</item>
+    </style>-->
+    <style name="ActionBarTabStyle" parent="@android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/ACTIONBAR_THEME_COLOR</item>
+    </style>
+    <bool name="AUTO_REQUEST_TRANSACTIONS">true</bool>
+
+<!--    <color name="TAB_BACKGROUND_NORMAL">@color/APP_MAIN_COLOR_DARKER</color>
+    <color name="TAB_BACKGROUND_PRESSED">@color/APP_MAIN_COLOR</color>
+    <color name="MENU_NORMAL_BACKGROUND_COLOR">@color/APP_MAIN_COLOR</color>
+    <color name="MENU_PRESSED_BACKGROUND_COLOR">@color/APP_MAIN_COLOR_DARKER</color>
+    <color name="QUICK_PAY_PRESSED">@color/APP_MAIN_COLOR_DARKER</color>
+    <color name="QUICK_PAY_NORMAL">@color/APP_MAIN_COLOR</color>
+    <color name="BUTTON_COLOR_PRESSED">@color/AIRTEL_FF_B65E61</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">@color/APP_MAIN_COLOR_DARKER</color>-->
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    android:thicknessRatio="2.5"
+    android:useLevel="false">
+    <solid android:color="@color/LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR" />
+
+    <stroke
+        android:width="2dp"
+        android:color="@color/SUREPAY_FF_007CBF" />
+</shape>

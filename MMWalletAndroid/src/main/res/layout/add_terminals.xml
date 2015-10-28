@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/OFF_WHITE"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:paddingLeft="@dimen/edit_text_padding_left_right"
+    android:paddingRight="@dimen/edit_text_padding_left_right"
+    >
+    <TextView
+        android:id="@+id/Add_Terminals_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_terminals"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/TEXT_REGISTRATION_NORMAL"
+        android:textSize="@dimen/title_size"/>
+    <EditText
+        android:id="@+id/Add_Terminals_MerchantId"
+        android:layout_below="@id/Add_Terminals_Title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:background="@drawable/background_send_money_linear"
+        android:gravity="center_vertical"
+        android:hint="@string/phone_number"
+        android:inputType="number"
+        android:paddingLeft="@dimen/edit_text_padding_left_right"
+        android:paddingRight="@dimen/edit_text_padding_left_right"
+        android:tag="validate"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="@dimen/edit_text_size" />
+    <EditText
+        android:id="@+id/Add_Merchant_Pin"
+        android:layout_below="@id/Add_Terminals_MerchantId"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:background="@drawable/background_send_money_linear"
+        android:gravity="center_vertical"
+        android:hint="@string/pin"
+        android:inputType="numberPassword"
+        android:paddingLeft="@dimen/edit_text_padding_left_right"
+        android:paddingRight="@dimen/edit_text_padding_left_right"
+        android:tag="validate"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="@dimen/edit_text_size" />
+    <Button
+        android:id="@+id/Add_Terminals_Submit_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Add_Merchant_Pin"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:background="@drawable/error_button_background"
+        android:gravity="center"
+        android:text="@string/button_add_terminals"
+        android:textColor="@color/registration_register_button_text_color"
+        android:textSize="@dimen/title_size" />
+
+    <include
+        android:id="@+id/Add_Terminals_ProgressBar_layout"
+        layout="@layout/main_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</RelativeLayout>

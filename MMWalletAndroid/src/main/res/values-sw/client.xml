@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="LOGIN_MSG_ENTER_PIN">Ingiza namba ya siri</string>
+    <string name="LOGIN_MSG_PHONE_NUMBER">Badilisha ID</string>
+    <string name="LOGIN_MSG_REGISTER">Usajili</string>
+    <string name="REGISTRATION_MSG_REGISTER">Usajili</string>
+    <string name="TEXTVIEW_PHONE_NUMBER">Namba ya simu</string>
+    <string name="TEXTVIEW_PIN">PIN</string>
+    <string name="LOGIN_INVALID_ACCOUNT">sio sahihi au pin ulioingiza sio sahihi</string>
+    <string name="RegistrationButton">Tuma</string>
+    <string name="TRY_AGAIN">Jaribu tena</string>
+    <string name="NO_INTERNET_CONNECTION">auna huduma ya internet</string>
+    <string name="LOGGING_IN">Ingia</string>
+
+    <string name="TAB_1">Akauti yangu</string>
+    <string name="TAB_2">QUICK LINK</string>
+    <string name="TAB_3">Menyu</string>
+
+    <string name="DATE">Tarehe</string>
+    <string name="TYPE">Aina</string>
+    <string name="OTHER_PARTY">Biashara Nyegine</string>
+    <string name="AMOUNT">Kiasi</string>
+
+    <string name="PAY">Kulipia</string>
+    <string name="Title_BillPayments">Kulipia bili</string>
+    <string name="Drawer_Topup">Ongeza salio</string>
+    <string name="Title_Topup">Ongeza salio</string>
+    <string name="SEND_MONEY_BANKS">Tuma pesa- Benki</string>
+    <string name="SEND_MONEY_OTHER_OPERATORS">Tume pesa kwenda mitandao mengine</string>
+    <string name="Topup_SendTopup">Send Top up</string>
+    <string name="Title_SendTopup">Send Top up</string>
+
+    <string name="TO_OPTIONAL">Kwenda</string>
+    <string name="RECEIVE_PAYMENT">Kupokea pesa</string>
+    <string name="GIVE_CASH_OUT">Withdraw Cash</string>
+
+    <string name="Drawer_BillPayments">Kulipia bili</string>
+
+
+    <string name="TOP_UP">Ongeza salio</string>
+
+    <string name="CHANGE_PIN">Badilisha Pin</string>
+    <string name="CONFIG_SERVER">Server Configuration</string>
+    <string name="SELECT_CURRENCY">Chagua sarafu</string>
+    <string name="OTHER_OPERATORS">Mitandao mengine</string>
+
+
+    <string name="SELECT_NETWORK">chagua network</string>
+    <string name="BANK_ACCOUNT">Akauti namba ya benki</string>
+    <string name="SELECT_BANK">changua Benki</string>
+    <string name="CURRENT_PIN">Pin yako ya sasa</string>
+    <string name="NEW_PIN">Pin Mpya</string>
+    <string name="CONFIRM_PIN">Hakikisha Pin</string>
+    <string name="LOGOUT">Ondoka/kujiondoa</string>
+    <string name="ABOUT">Kuhusu</string>
+    <string name="SUBMIT">Tuma</string>
+    <string name="MAKE_PAYMENT">Kutuma Pesa</string>
+    <string name="TAG_REGISTRATION">Usajili wa Tag</string>
+    <string name="SendMoneyButton">Kulipia</string>
+    <string name="TOAST_PIN_DO_NOT_MATCH">PINI si mechi. Jaribu tena</string>
+
+
+    <!-- Basic setting related  No need to translate -->
+
+
+    <bool name="CASH_IN_EXCHANGE_QUOTE_ON">false</bool>
+    <bool name="PAY_PIN_REQUIRED">false</bool>
+    <integer name="PIN_LENGTH">4</integer>
+
+    <string name="RECEIVE_CASH_IN_CC">Credit Card Cash In</string>
+    <string name="BANKS">Banks</string>
+
+    <string name="title_connected">Connected</string>
+    <string name="title_not_connected">Not Connected</string>
+    <string name="title_connecting">Connecting</string>
+    <!-- UI -->
+    <string name="button_submit">SUBMIT</string>
+    <string name="button_cancel">CANCEL</string>
+    <string name="look_up_phone_number">Look up phone number</string>
+    <string name="merchant_id">Merchant Id</string>
+    <string name="phone_number">Merchant number/Phone number</string>
+    <string name="first_name">Business/Given name</string>
+    <string name="sur_name">Surname</string>
+    <string name="email">Email</string>
+    <string name="dob">Date of birth</string>
+    <string name="pin">PIN</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="look_up_merchant">Lookup Merchant</string>
+    <string name="merchant_already_exists">This merchant has already been registered, please check the merchant id before trying it again.</string>
+    <string name="valid_merchant_continue_registration">This is a valid merchant number please continue registration process.</string>
+    <string name="device_registered">Device registered successfully.</string>
+    <string name="mandatory_field">Mandatory field</string>
+    <string name="check_mandatory_field">Please check you have filled in all mandatory fields.</string>
+    <string name="customer_number_cannont_be_empty">Please enter a customer number.</string>
+    <string name="select_country_label">Select country</string>
+    <string name="please_select_country">Please select a country.</string>
+    <string name="pin_cannot_be_empty">Please enter your pin.</string>
+    <string name="pin_confirm_cannot_be_empty">Please confirm your pin.</string>
+    <string name="pin_does_not_match">Pin entered does not match.</string>
+    <string name="pin_minimum_length_pref">Pin must be at least</string>
+    <string name="pin_minimum_length_suf">characters long.</string>
+    <string name="OK">OK</string>
+    <string name="TOAST_NFC_DISABLED_MSG">Please activate NFC and press Back to return to the application!</string>
+    <string name="TOAST_SOCKET_TIMEOUT">No response from server..please try again</string>
+    <string name="ServerIPLabel">Server IP</string>
+    <string name="ServerPortLabel">Server Port</string>
+    <string name="labelBalance">Balance</string>
+    <string name="labelMerchantLogin">Merchant ID</string>
+    <string name="hintMerchantPin">Enter PIN</string>
+
+    <string name="RegistrationError">* This field can\'t be empty</string>
+    <string name="servicedesc">MMWallet HSE Service</string>
+    <string name="aiddescription">MMWallet HSE AID Service</string>
+
+    <string name="LOGIN_MSG_LOGIN">LOGIN</string>
+    <string name="LOGIN_MSG_CANCEL">CANCEL</string>
+
+    <string name="SELECT_ID_TYPE">Select identification type</string>
+    <string name="SELECT_CUSTOMER_TYPE">Select customer type</string>
+    <string name="SUCCESS_MSG">ACCEPTED</string>
+    <string name="GENERATE">Generate</string>
+    <string name="CUSTOMER_ID">Customer ID</string>
+
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+    <string name="PHONE_NUMBER">Phone Number</string>
+    <string name="DIFFERENT_PHONE_NUMBER">Different Phone Number</string>
+    <string name="GET_MONEY">GET MONEY</string>
+    <string name="AMOUNT_IS_MANDATORY">Amount is mandatory field</string>
+    <string name="CONTACT_NUMBER_IS_MANDATORY">Contact Number is mandatory field</string>
+    <string name="MANDATORY_FIELD">Mandatory Field</string>
+    <string name="CREDIT_CARD_NUMBER">Credit Card Number</string>
+    <string name="CREDIT_CARD_EXPIRY">Credit Card Expiry (YYMM)</string>
+    <string name="ID_VERIFICATION_TYPE">ID Verification Type</string>
+    <string name="NOT_AVAILABLE">ID N/A</string>
+    <string name="AIRTEL">AIRTEL</string>
+    <string name="CRASH_REPORT_TEXT">It appears that the application has stopped working unexpectedly last time.\nWould you like to report the problem? </string>
+    <string name="TAP_DEVICE">TAP DEVICE</string>
+    <string name="NEW_PIN_REQUIRED_MESSAGE"><u>NEW PIN IS REQUIRED</u></string>
+    <string name="access_number_already_exists">This access number has already been registered, please check the access number before trying it again.</string>
+    <string name="RECEIVE_CASH_IN">Cash In</string>
+    <string name="REGISTER_CUSTOMER">Register Customer</string>
+    <string name="FOUND_CUSTOMER_MESSAGE">This customer is already registered!</string>
+    <string name="business_name">Business name(Optional)</string>
+    <string name="address">Address</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="REGISTER_MERCHANT">Register Merchant</string>
+    <string name="merchant_registered">Merchant registered successfully.</string>
+    <string name="pending_account">Account not found or account has not yet been activated.</string>
+    <string name="button_add_terminals">Add Terminals</string>
+    <string name="button_add_new_merchant">Add New Merchant</string>
+</resources>

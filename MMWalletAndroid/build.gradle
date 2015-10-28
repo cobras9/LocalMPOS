@@ -1,0 +1,292 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile 'com.android.support:support-v13:21.0.3'
+    compile 'com.android.support:appcompat-v7:19.1.0'
+    compile fileTree(dir: 'libs', include: '*.jar')
+    //compile 'com.android.support:support-v4:22.2.0'
+    compile 'org.roboguice:roboguice:3.+'
+    provided 'org.roboguice:roboblender:3.+'
+    compile 'com.fasterxml.jackson.core:jackson-core:2.5.1'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.5.1'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.5.1'
+    /*  androidTestCompile 'junit:junit:4.12'
+                        provided('org.robolectric:robolectric:3.0-rc3') {
+                            exclude group: 'commons-logging', module: 'commons-logging'
+                            exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+                        }
+                        androidTestCompile 'com.android.support.test:runner:0.3'
+                        // Set this dependency to use JUnit 4 rules
+                        androidTestCompile 'com.android.support.test:rules:0.3'
+                        // Set this dependency to build and run Espresso tests
+                        androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2'*/
+    // Set this dependency to build and run UI Automator tests
+    //    androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.1'
+    compile 'com.amazonaws:aws-android-sdk-core:2.2.+'
+    compile 'com.amazonaws:aws-android-sdk-cognito:2.2.+'
+    compile 'com.amazonaws:aws-android-sdk-apigateway-core:2.2.4'
+    // Unit testing dependencies
+    androidTestCompile 'junit:junit:4.12'
+    // Set this dependency if you want to use Mockito
+    androidTestCompile 'org.mockito:mockito-core:1.10.19'
+    androidTestCompile 'org.hamcrest:hamcrest-library:1.1'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.9.5'
+    compile 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+    compile project(':snapseekbar')
+}
+
+
+android {
+packagingOptions{
+    exclude 'META-INF/DEPENDENCIES'
+    exclude 'META-INF/LICENSE'
+    exclude 'META-INF/LICENSE.txt'
+    exclude 'META-INF/license.txt'
+    exclude 'META-INF/NOTICE'
+    exclude 'META-INF/NOTICE.txt'
+    exclude 'META-INF/notice.txt'
+    exclude 'META-INF/ASL2.0'
+    exclude 'META-INF/LICENSE.txt'
+    exclude 'META-INF/license.txt'
+    exclude 'NOTICE'
+    exclude 'NOTICE.txt'
+    exclude 'LICENSE.txt'
+    exclude 'license.txt'
+}
+    compileSdkVersion 21
+    buildToolsVersion '21.1.2'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 21
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    def destFolder = file('APKS')
+    destFolder.mkdirs()
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            variant.assemble.doLast {
+                println 'moving assembled apk to ' + output.outputFile
+                copy {
+                    from output.outputFile
+                    into destFolder
+                    include '**/*.apk'
+                }
+            }
+        }
+    }
+    dexOptions {
+        preDexLibraries = false
+    }
+
+    // Prevent UNEXPECTED TOP-LEVEL EXCEPTION
+    configurations {
+        all*.exclude group: 'commons-logging', module: 'commons-logging'
+        all*.exclude group: 'com.android.support', module: 'support-v4'
+    }
+
+    // Create signing for app
+    signingConfigs {
+        unsigned {
+            storePassword = ""
+            keyAlias = ""
+            keyPassword = ""
+        }
+        signed {
+            storeFile file("../mmwallet.keystore")
+            storePassword = "m0b1l1514"
+            keyAlias = "androidmmwallet"
+            keyPassword = "@ndr01d14"
+        }
+    }
+
+    // Config for debug and release
+    buildTypes {
+
+        debug {
+            debuggable true
+            zipAlignEnabled true
+        }
+
+        release {
+            zipAlignEnabled true
+            debuggable false
+            signingConfig signingConfigs.signed
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src/main/java']
+            res.srcDirs = ['src/main/res']
+            assets.srcDirs = ['src/main/assets']
+        }
+        airtelMain {
+            res.srcDirs = ['src/airtelMain/res']
+        }
+        airtelStaging {
+            res.srcDirs = ['src/airtelStaging/res']
+        }
+        teasyProduction {
+            res.srcDirs = ['src/teasyProduction/res']
+        }
+        teasyStaging {
+            res.srcDirs = ['src/teasyProduction/res']
+        }
+
+        assotelStaging {
+            res.srcDirs = ['src/assotelStaging/res']
+        }
+        telkomStaging {
+            res.srcDirs = ['src/telkomStaging/res']
+        }
+        ezLinkStaging {
+            res.srcDirs = ['src/ezlinkStaging/res']
+        }
+        adbStaging {
+            res.srcDirs = ['src/adbStaging/res']
+        }
+        ericssonStaging {
+            res.srcDirs = ['src/ericssonStaging/res']
+        }
+        digiCel {
+            res.srcDirs = ['src/digiCel/res']
+        }
+        mobilisDemo {
+        }
+        youTap {
+            res.srcDirs = ['src/youTap/res']
+        }
+        zeePay {
+            res.srcDirs = ['src/zeePay/res']
+        }
+        eCash {
+            res.srcDirs = ['src/eCash/res']
+        }
+        airtelGHStaging.res.srcDirs = ['src/airtelGHStaging/res']
+        airtelGBStaging.res.srcDirs = ['src/airtelGBStaging/res']
+        airtelZMStaging.res.srcDirs = ['src/airtelZMStaging/res']
+        airtelDRCStaging.res.srcDirs = ['src/airtelDRCStaging/res']
+        airtelDRCInternal.res.srcDirs = ['src/airtelDRCInternal/res']
+        airtelGHStagingInternal.res.srcDirs = ['src/airtelGHStagingInternal/res']
+        airtelGHStagingInternalWhite.res.srcDirs = ['src/airtelGHStagingInternalWhite/res']
+        mtn.res.srcDirs = ['src/mtn/res']
+        asb.res.srcDirs = ['src/asb/res']
+        surePay.res.srcDirs =['src/surePay/res']
+        // Move the tests to tests/java, tests/res, etc...
+       // androidTest.setRoot('src/androidTest/java')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+
+    allprojects {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:deprecation"
+        }
+    }
+
+    // Different environments for production and staging
+    productFlavors {
+        surePay{
+            applicationId "com.youtap.surePay"
+        }
+        airtelGHStagingInternalWhite{
+            applicationId "com.verifonemobilemoney.airtelGHStaging.internal.white"
+        }
+        asb{
+            applicationId "com.youtap.asb.staging"
+        }
+        airtelGHStagingInternal{
+            applicationId "com.verifonemobilemoney.airtelGHStaging.internal"
+        }
+        mtn{
+            applicationId "com.verifonemobilemoney.mtn"
+        }
+        mobilisDemo {
+            applicationId "com.mobilis.demo"
+        }
+        adbStaging {
+            applicationId "com.verifonemobilemoney.adb.vfmm.staging"
+        }
+        airtelStaging {
+            applicationId "com.verifonemobilemoney.airtel.staging"
+        }
+        teasyProduction {
+            applicationId "com.mobilis.teasy.production"
+        }
+        teasyStaging {
+            applicationId "com.mobilis.teasy.test.staging"
+        }
+        assotelStaging {
+            applicationId "com.verifonemobilemoney.assotel.staging"
+        }
+        telkomStaging {
+            applicationId "com.verifonemobilemoney.telkom.demo.staging"
+        }
+        ezLinkStaging {
+            applicationId "com.verifonemobilemoney.ezlink.vfmm.staging"
+        }
+        adbStaging {
+            applicationId "com.verifonemobilemoney.adb.vfmm.staging"
+        }
+        airtelMain {
+            applicationId "com.verifonemobilemoney.airtel.main"
+        }
+        ericssonStaging {
+            applicationId "com.verifonemobilemoney.ericsson.staging"
+        }
+        digiCel {
+            applicationId "com.verifonemobilemoney.digicel"
+        }
+        zeePay{
+            applicationId "com.mobilis.zeepay"
+        }
+        youTap {
+            applicationId "com.mobilis.youtap"
+        }
+        eCash {
+            applicationId "com.mobilis.ecash"
+        }
+        airtelGHStaging{
+            applicationId "com.verifonemobilemoney.airtelGHStaging"
+        }
+        airtelGBStaging{
+            applicationId "com.verifonemobilemoney.airtelGBStaging"
+        }
+        airtelZMStaging {
+            applicationId "com.verifonemobilemoney.airtelZMStaging"
+        }
+        airtelDRCStaging {
+            applicationId "com.verifonemobilemoney.airtelDRCStaging"
+        }
+        airtelDRCInternal {
+            applicationId "com.verifonemobilemoney.airtelDRC.internal"
+        }
+
+        /*    verifoneProduction {
+              applicationId = "com.mobilis.verifone.production"
+          }
+
+          verifoneStaging {
+              applicationId = "com.verifonemobilemoney.verifone.akl.staging"
+          }*/
+    }
+
+    lintOptions {
+        abortOnError false
+        showAll false
+        checkAllWarnings false
+    }
+
+}

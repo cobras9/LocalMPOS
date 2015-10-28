@@ -1,0 +1,62 @@
+Nigeria,DSTV,033,93701001008,Reference code,#9,^\d{0,10}$
+Nigeria,Water,033,93701001008,Reference code,#9,^\d{0,10}$
+Nigeria,Utility,033,93701001008,Reference code,#9,^\d{0,10}$
+Nigeria,ACCESS BOUQ+FRENCH,10433,93701001008,Amount to Pay,@##(~755000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,ACCESS BOUQUET,10428,93701001008,Amount to Pay,@##(~150000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,ACCESS BOUQUET+ASIA,10432,93701001008,Amount to Pay,@##(~550000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,ACCESS BOUQUET+DUAL,10429,93701001008,Amount to Pay,@##(~330000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,ACCESS BOUQ+EXTR VW,10434,93701001008,Amount to Pay,@##(~330000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,ACCESS BOUQ+GERMAN,10436,93701001008,Amount to Pay,@##(~312000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,ACCESS BOUQ+PVR ACC,10435,93701001008,Amount to Pay,@##(~330000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,ASIAN BOUQUET,10417,93701001008,Amount to Pay,@##(~400000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,ASIAN BOUQUET+DUAL,10420,93701001008,Amount to Pay,@##(~580000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,ASIAN BOUQ+EXTR VW,10459,93701001008,Amount to Pay,@##(~580000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,ASIAN BOUQ+PVR ACC,10460,93701001008,Amount to Pay,@##(~580000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,COMP PLUS+ASIA,10445,93701001008,Amount to Pay,@#(~1100000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,COMP PLUS+ASIA+DL VW,10453,93701001008,Amount to Pay,@#(~1280000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,COMP PLUS+ASIA+ZDF,10446,93701001008,Amount to Pay,@#(~1262000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,COMP PLUS+DUAL VIEW,10449,93701001008,Amount to Pay,@##(~880000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,COMP PLUS+EXTRA VIEW,10450,93701001008,Amount to Pay,@##(~880000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,COMP PLUS+FRENCH,10448,93701001008,Amount to Pay,@#(~1305000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,COMP PLUS+GERMAN,10447,93701001008,Amount to Pay,@##(~862000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,COMP PLUS+PVR ACCESS,10451,93701001008,Amount to Pay,@##(~880000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,COMP PLUS BOUQUET,10430,93701001008,Amount to Pay,@##(~700000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,COMP PLS+ASA+PVR ACCESS,10452,93701001008,Amount to Pay,@#(~1280000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,FAMILY+ASIA,10437,93701001008,Amount to Pay,@##(~680000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,FAMILY+DUAL,10425,93701001008,Amount to Pay,@##(~460000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,FAMILY+EXTR VIEW,10440,93701001008,Amount to Pay,@##(~460000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,FAMILY+FRENCH,10439,93701001008,Amount to Pay,@##(~885000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,FAMILY+GERMAN,10438,93701001008,Amount to Pay,@##(~442000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,FAMILY+PVR ACCESS,10410,93701001008,Amount to Pay,@##(~460000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,FAMILY BOUQUET,10406,93701001008,Amount to Pay,@##(~280000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,FRENCH ALONE,10415,93701001008,Amount to Pay,@##(~605000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,GERMAN ALONE,10411,93701001008,Amount to Pay,@##(~303000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,MINI,10403,93701001008,Amount to Pay,@##(~480000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,MINI+ASIA,10422,93701001008,Amount to Pay,@##(~880000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,MINI+ASIA+DUAL,10462,93701001008,Amount to Pay,@#(~1060000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,MINI+ASIA+GERMAN,10442,93701001008,Amount to Pay,@#(~1042000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,MINI+DUAL,10404,93701001008,Amount to Pay,@##(~660000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,MINI+DUAL,10423,93701001008,Amount to Pay,@##~(660000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,MINI+EXTRA VIEW,10443,93701001008,Amount to Pay,@##(~660000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,MINI+FRENCH,10444,93701001008,Amount to Pay,@#(~1085000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,MINI+GERMAN,10463,93701001008,Amount to Pay,@##(~642000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,MINI+PVR ACCESS,10409,93701001008,Amount to Pay,@##(~660000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,MINIASIA+PVR ACCESS,10464,93701001008,Amount to Pay,@#(~1060000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREMIUM,10401,93701001008,Amount to Pay,@#(~1000000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREMIUM+ASIA,10418,93701001008,Amount to Pay,@#(~1212000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREMIUM+ASIA+DUAL,10426,93701001008,Amount to Pay,@#(~1392000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREM+ASIA+PVR ACCESS,10457,93701001008,Amount to Pay,@#(~1392000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREM+DUAL,10402,93701001008,Amount to Pay,@#(~1180000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREM+EXTRA VIEW,10456,93701001008,Amount to Pay,@#(~1180000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREM+FRENCH,10414,93701001008,Amount to Pay,@#(~1212000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREM+FRENCH+ASIA,10454,93701001008,Amount to Pay,@#(~1392000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREM+FRNCH+ASIA+GERMAN,10455,93701001008,Amount to Pay,@#(~1774000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREM+FRENCH+DUAL,10427,93701001008,Amount to Pay,@#(~1392000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREM+GERMAN,10421,93701001008,Amount to Pay,@#(~1192000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Nigeria,PREM+PVR ACCESS,10408,93701001008,Amount to Pay,@#(~1180000),^\d{3,9}$|Reference code,#9,^\d{0,10}$
+Ghana,DSTV,DSTV,93701001008,Reference code,#9,^\d{0,10}$
+Ghana,GHANAWATER,GHANAWATER,93701001008,Reference code,#9,^\d{0,10}$
+Ghana,GOTV,GOTV,93701001008,Reference code,#9,^\d{0,10}$
+Ghana,BOXOFFICE,BOXOFFICE,93701001008,Reference code,#9,^\d{0,10}$
+Ghana,POSTPAID,POSTPAID,93701001008,Reference code,#9,^\d{0,10}$
+Ghana,SchoolFees,SchoolFees,93701001008,Reference code,#9,^\d{0,10}$

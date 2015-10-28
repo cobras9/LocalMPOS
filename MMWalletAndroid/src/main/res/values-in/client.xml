@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string translatable="false" name="REFERENCE_NUMBER_FORMAT_ERROR_MESSAGE">Format Nomor Referensi yang dimasukkan tidak sesuai</string>
+    <string translatable="false" name="CUSTOMER_REGISTRATION">Pendaftaran Pelanggan</string>
+    <string translatable="false" name="message_track_data_error_corrupted">Data pada track 1 dan track 2 tidak terbaca. Silahkan menggesek kartu kembali!</string>
+    <string translatable="false" name="message_track1_data_error_corrupted">Data pada track 1 tidak terbaca. Silahkan menggesek kartu kembali!</string>
+    <string translatable="false" name="message_track2_data_error_corrupted">Data pada track 2 tidak terbaca. Silahkan menggesek kartu kembali!</string>
+    <string translatable="false" name="message_track_data_error_decrypted">Track data tidak dapat didekripsi. Silahkan menggesek kartu kembali!</string>
+    <string translatable="false" name="message_track_data_error_checksum">Track data terdapat checksum error. Silahkan menggesek kartu kembali!</string>
+    <string translatable="false" name="message_track_data_error_ksn">Nomor Seri Kunci tidak sesuai dengan setting.</string>
+    <string translatable="false" name="message_track_data_error_ec">Enkripsi counter tidak sesuai.</string>
+    <string translatable="false" name="SERVER_IP_NOT_ENTERED">Masukkan IP server.</string>
+    <string translatable="false" name="SERVER_PORT_NOT_ENTERED">Masukkan port server.</string>
+    <string translatable="false" name="COMMISSION_TRANSFER">Transfer Komisi</string>
+    <string translatable="false" name="MERCHANT_VOUCHER">ATM Cash Out</string>
+    <string translatable="false" name="REQ_TAG_OWNER_NAME_HINT">Tag nama pemilik</string>
+
+    <!--client.xml-->
+    <string name="title_connected">Terhubung</string>
+    <string name="title_not_connected">Tidak Terhubung</string>
+    <string name="title_connecting">Menghubungkan</string>
+    <!-- UI -->
+    <string name="button_submit">KIRIM</string>
+    <string name="button_cancel">BATAL</string>
+    <string name="look_up_phone_number">Mencari nomor akses</string>
+    <string name="merchant_id">Merchant Id</string>
+    <string name="phone_number">Nomor merchant/Nomor telp</string>
+    <string name="first_name">Nama depan</string>
+    <string name="sur_name">Nama belakang</string>
+    <string name="email">Email</string>
+    <string name="dob">Tanggal lahir</string>
+    <string name="pin">PIN</string>
+    <string name="confirm_pin">Konfirmasi PIN</string>
+    <string name="look_up_merchant">Mencari Merchant</string>
+    <string name="merchant_already_exists">Merchant ini sudah terdaftar, silahkan cek merchant id sebelum mencoba lagi.</string>
+    <string name="valid_merchant_continue_registration">Nomor merchant sudah sesuai, silahkan melanjutkan proses pendaftaran.</string>
+    <string name="device_registered">Perangkat berhasil didaftarkan.</string>
+    <string name="mandatory_field">Wajib diisi</string>
+    <string name="check_mandatory_field">Mohon dicek Anda telah mengisi semua field yang wajib diisi.</string>
+    <string name="customer_number_cannont_be_empty">Masukkan nomor merchant.</string>
+    <string name="select_country_label">Pilih negara</string>
+    <string name="please_select_country">Mohon memilih negara.</string>
+    <string name="pin_cannot_be_empty">Masukkan pin Anda.</string>
+    <string name="pin_confirm_cannot_be_empty">Mohon konfirmasi pin Anda.</string>
+    <string name="pin_does_not_match">Pin yang dimasukkan tidak sesuai.</string>
+    <string name="pin_minimum_length_pref">Minimal pin harus</string>
+    <string name="pin_minimum_length_suf">karakter.</string>
+    <string name="OK">OK</string>
+    <string name="TOAST_NFC_DISABLED_MSG">Mohon aktifkan Fitur NFC dan tekan tombol Kembali untuk kembali ke aplikasi!</string>
+    <string name="TOAST_SOCKET_TIMEOUT">Tidak ada respon dari server.. Silahkan coba lagi</string>
+    <string name="TOAST_PIN_DO_NOT_MATCH">PIN TIDAK SESUAI. COBA LAGI</string>
+    <string name="ServerIPLabel">IP Server</string>
+    <string name="ServerPortLabel">Port Server</string>
+    <string name="labelBalance">Saldo</string>
+    <string name="labelMerchantLogin">Merchant ID</string>
+    <string name="hintMerchantPin">Masukkan PIN</string>
+    <string name="RegistrationButton">Daftar</string>
+    <string name="SendMoneyButton">BAYAR</string>
+    <string name="RegistrationError">* Field ini harus diisi</string>
+    <string name="servicedesc">Layanan MMWallet HSE</string>
+    <string name="aiddescription">Layanan bantuan MMWallet HSE</string>
+    <string name="TAB_1">ACCOUNT</string>
+    <string name="TAB_2">QUICK LINK</string>
+    <string name="TAB_3">MENU</string>
+    <string name="LOGIN_MSG_ENTER_PIN">MASUKKAN SECURITY PIN</string>
+    <string name="LOGIN_MSG_REGISTER">DAFTAR</string>
+    <string name="LOGIN_MSG_PHONE_NUMBER">GANTI ID</string>
+    <string name="LOGIN_MSG_LOGIN">MASUK</string>
+    <string name="LOGIN_MSG_CANCEL">BATAL</string>
+    <string name="REGISTRATION_MSG_REGISTER">Pendaftaran Merchant</string>
+    <string name="TEXTVIEW_PHONE_NUMBER">Nomor Telepon</string>
+    <string name="TEXTVIEW_PIN">PIN</string>
+    <string name="LOGIN_INVALID_ACCOUNT">Account atau PIN yang Anda masukkan salah</string>
+    <string name="TRY_AGAIN">Coba lagi</string>
+    <string name="NO_INTERNET_CONNECTION">Koneksi internet tidak tersedia</string>
+    <string name="LOGGING_IN">Masuk</string>
+    <string name="DATE">TANGGAL</string>
+    <string name="TYPE">TIPE</string>
+    <string name="OTHER_PARTY">PIHAK LAIN</string>
+    <string name="AMOUNT">JUMLAH</string>
+    <string name="TO_OPTIONAL">Untuk: (Opsional)</string>
+    <string name="SELECT_BANK">Pilih Bank</string>
+    <string name="SELECT_ID_TYPE">Pilih jenis identifikasi</string>
+    <string name="SELECT_CUSTOMER_TYPE">Pilih jenis pelanggan</string>
+    <string name="SUCCESS_MSG">SUKSES</string>
+    <string name="GENERATE">Generate</string>
+    <string name="CUSTOMER_ID">ID Pelanggan</string>
+    <string name="CURRENT_PIN">PIN Lama</string>
+    <string name="NEW_PIN">PIN Baru</string>
+    <string name="CONFIRM_PIN">Konfirmasi PIN</string>
+    <string name="LOGOUT">Keluar</string>
+    <string name="ABOUT">Tentang</string>
+    <string name="SUBMIT">Kirim</string>
+    <string name="BANK_ACCOUNT">Bank Account</string>
+    <string name="SELECT_NETWORK">PILIH JARINGAN</string>
+    <string name="YES">Ya</string>
+    <string name="NO">Tidak</string>
+    <string name="PHONE_NUMBER">Nomor Telepon</string>
+    <string name="DIFFERENT_PHONE_NUMBER">Nomor Telepon Lain</string>
+    <string name="GET_MONEY">AMBIL UANG</string>
+    <string name="AMOUNT_IS_MANDATORY">Field Jumlah wajib diisi</string>
+    <string name="CONTACT_NUMBER_IS_MANDATORY">Field Nomor Kontak wajib diisi</string>
+    <string name="MANDATORY_FIELD">Wajib Diisi</string>
+    <string name="CREDIT_CARD_NUMBER">Nomor Kartu Kredit</string>
+    <string name="CREDIT_CARD_EXPIRY">Masa Berlaku Kartu Kredit(YYMM)</string>
+    <string name="ID_VERIFICATION_TYPE">Jenis Verifikasi ID</string>
+    <string name="NOT_AVAILABLE">Tidak Tersedia</string>
+    <string name="AIRTEL">AIRTEL</string>
+    <string name="CRASH_REPORT_TEXT">Sebelumnya aplikasi telah berhenti secara tiba-tiba. Apakah Anda ingin melaporkan masalah ini? </string>
+    <string name="TAP_DEVICE">TAP DEVICE</string>
+    <string name="NEW_PIN_REQUIRED_MESSAGE"><u>PIN BARU DIPERLUKAN</u></string>
+
+    <string name="RECEIVE_CASH_IN_CC">Cash in via Kartu Kredit</string>
+    <string name="BANKS">Bank</string>
+    <string name="OTHER_OPERATORS">Operator Lain</string>
+
+    <string name="PAY">BAYAR</string>
+    <string name="Title_BillPayments">Bill Payment</string>
+    <string name="Drawer_Topup">Isi Ulang</string>
+    <string name="Title_Topup">Isi Ulang</string>
+    <string name="SEND_MONEY_BANKS">Kirim Uang - Bank</string>
+    <string name="SEND_MONEY_OTHER_OPERATORS">Kirim Uang - Operator Lain</string>
+    <string name="Topup_SendTopup">Kirim Top up</string>
+    <string name="Title_SendTopup">Kirim Top up</string>
+
+    <string name="access_number_already_exists">Nomor merchant ini sudah terdaftar, silahkan cek Nomor merchant sebelum mencoba lagi.</string>
+    <string name="RECEIVE_CASH_IN">Cash In</string>
+    <string name="GIVE_CASH_OUT">Cash Out</string>
+    <string name="RECEIVE_PAYMENT">Pambelian</string>
+    <string name="Drawer_BillPayments">Bill Payment</string>
+    <string name="TOP_UP">Isi Ulang</string>
+    <string name="CHANGE_PIN">Ganti PIN</string>
+    <string name="CONFIG_SERVER">Konfigurasi Server</string>
+    <string name="SELECT_CURRENCY">Pilih Mata Uang</string>
+    <string name="MAKE_PAYMENT">Lakukan Pembayaran</string>
+    <string name="TAG_REGISTRATION">Tag Pendaftaran</string>
+    <string name="REGISTER_CUSTOMER">Pendaftaran Pelanggan</string>
+    <string name="FOUND_CUSTOMER_MESSAGE">Pelanggan ini sudah terdaftar!</string>
+    <string name="business_name">Nama bisnis(Opsional)</string>
+    <string name="address">Alamat</string>
+    <string name="country">Negara</string>
+    <string name="city">Kota</string>
+    <string name="state">Provinsi</string>
+    <string name="REGISTER_MERCHANT">Pendaftaran Merchant</string>
+    <string name="merchant_registered">Pendaftaran Merchant Berhasil.</string>
+    <string name="terminal_registered">Pendaftaran Terminal Berhasil.</string>
+    <string name="pending_account">Account tidak ditemukan atau account belum diaktivasi.</string>
+    <string name="button_add_terminals">Menambahkan Terminal</string>
+    <string name="button_add_new_merchant">Menambahkan Merchant Baru</string>
+    <string name="new_terminals">Pendaftaran Terminal</string>
+
+
+    <string name="CASH_OUT_VOUCHER">Voucher Cash Out</string>
+    <string name="SELL_VOUCHER">Jual EVD</string>
+    <string name="CASH_IN_VOUCHER">Transfer EVD</string>
+    <string name="BUY_VOUCHER">Beli EVD</string>
+    <string name="BUY_BULK_VOUCHER">Beli EVD Massal</string>
+</resources>
+
+
+
+  

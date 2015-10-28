@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE"
+    android:padding="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10">
+
+    <EditText
+        android:id="@+id/SIR_PERSONAL_FIRST_NAME"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_personal_first_name"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+    <EditText
+        android:id="@+id/SIR_PERSONAL_LAST_NAME"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_below="@id/SIR_PERSONAL_FIRST_NAME"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_personal_last_name"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+    <EditText
+        android:id="@+id/SIR_PERSONAL_PHONE_NUMBER"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_below="@id/SIR_PERSONAL_LAST_NAME"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_personal_phone_number"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+    <EditText
+        android:id="@+id/SIR_PERSONAL_ID_NUMBER"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_below="@id/SIR_PERSONAL_PHONE_NUMBER"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_personal_id_number"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+
+    <EditText
+        android:id="@+id/SIR_PERSONAL_REFERENCE_NUMBER"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+        android:layout_below="@id/SIR_PERSONAL_ID_NUMBER"
+        android:layout_marginTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:background="@drawable/social_edittext"
+        android:gravity="center"
+        android:hint="@string/social_personal_reference_number"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+        android:textSize="@dimen/TEXT_SIZE_20" />
+</RelativeLayout>

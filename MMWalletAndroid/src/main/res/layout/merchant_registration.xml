@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/OFF_WHITE"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    >
+    <!--   android:background="@drawable/customer_creation_background"-->
+
+
+    <TextView
+        android:id="@+id/Merchant_Registration_TitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:gravity="center"
+        android:text="@string/REGISTRATION_MSG_REGISTER"
+        android:textColor="@color/TEXT_REGISTRATION_NORMAL"
+        android:textSize="@dimen/title_size" />
+
+    <Button
+        android:id="@+id/dummyButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/Merchant_Registration_CancelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+        android:layout_marginRight="@dimen/edit_text_padding_left_right"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:layout_toLeftOf="@id/dummyButton"
+        android:layout_toStartOf="@id/dummyButton"
+        android:background="@drawable/error_button_background"
+        android:gravity="center"
+        android:text="@string/button_cancel"
+        android:textColor="@color/registration_register_button_text_color"
+        android:textSize="@dimen/title_size" />
+
+
+    <Button
+        android:id="@+id/Merchant_Registration_SubmitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+        android:layout_marginRight="@dimen/edit_text_padding_left_right"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:layout_toEndOf="@id/dummyButton"
+        android:layout_toRightOf="@id/dummyButton"
+        android:background="@drawable/error_button_background"
+        android:gravity="center"
+        android:text="@string/button_submit"
+        android:textColor="@color/registration_register_button_text_color"
+        android:textSize="@dimen/title_size" />
+
+    <ScrollView
+        android:id="@+id/Merchant_Registration_ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Merchant_Registration_SubmitBtn"
+        android:layout_below="@id/Merchant_Registration_TitleTV">
+
+        <RelativeLayout
+            android:id="@+id/Merchant_Registration_RootView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+            android:layout_marginRight="@dimen/edit_text_padding_left_right">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                />
+            <EditText
+                android:id="@+id/Merchant_Registration_AccessNumberIdET"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_marginTop="@dimen/edit_text_margin_top"
+                android:background="@drawable/background_send_money_linear"
+                android:gravity="center_vertical"
+                android:hint="@string/phone_number"
+                android:inputType="number"
+                android:paddingLeft="@dimen/edit_text_padding_left_right"
+                android:paddingRight="@dimen/edit_text_padding_left_right"
+                android:tag="validate"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="@dimen/edit_text_size" />
+
+            <Button
+                android:id="@+id/Merchant_Registration_LookUp_Merchant_Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Merchant_Registration_AccessNumberIdET"
+                android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+                android:layout_marginTop="@dimen/edit_text_margin_top"
+                android:background="@drawable/error_button_background"
+                android:gravity="center"
+                android:text="@string/REGISTER_MERCHANT"
+                android:textColor="@color/registration_register_button_text_color"
+                android:textSize="@dimen/title_size" />
+
+            <RelativeLayout
+                android:id="@+id/Merchant_Registration_Details_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Merchant_Registration_AccessNumberIdET"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/Merchant_Registration_MerchantIdET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/merchant_id"
+                    android:inputType="phone"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/Merchant_Registration_PinET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Merchant_Registration_MerchantIdET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/pin"
+                    android:inputType="numberPassword"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <EditText
+                    android:id="@+id/Merchant_Registration_Confirm_PinET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Merchant_Registration_PinET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/confirm_pin"
+                    android:inputType="numberPassword"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+
+
+                <TextView
+                    android:id="@+id/Merchant_Registration_PhotoIdLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+                    android:layout_below="@id/Merchant_Registration_Confirm_PinET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:text="Photo ID :"
+                    android:textColor="@color/TEXT_REGISTRATION_NORMAL"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <ImageView
+                    android:id="@+id/Merchant_Registration_PhotoId"
+                    android:layout_width="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+                    android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+                    android:visibility="gone"
+                    android:layout_below="@id/Merchant_Registration_Confirm_PinET"
+                    android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:layout_toRightOf="@id/Merchant_Registration_PhotoIdLabel"
+                    android:src="@drawable/icon"
+                    android:gravity="center_vertical"
+                    />
+
+                <EditText
+                    android:id="@+id/Merchant_Registration_Given_NameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Merchant_Registration_PhotoId"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/first_name"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+
+
+                <EditText
+                    android:id="@+id/Merchant_Registration_SurnameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Merchant_Registration_Given_NameET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/sur_name"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+                <EditText
+                    android:id="@+id/Merchant_Registration_BusinessNameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Merchant_Registration_SurnameET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/business_name"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+                <EditText
+                    android:id="@+id/Merchant_Registration_EmailET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Merchant_Registration_BusinessNameET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <EditText
+                    android:id="@+id/Merchant_Registration_DOBET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@+id/Merchant_Registration_EmailET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/dob"
+                    android:inputType="date"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size"
+                    android:focusableInTouchMode="true"/>
+                <EditText
+                    android:id="@+id/Mechant_Registration_AddressET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Merchant_Registration_DOBET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/address"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+                <EditText
+                    android:id="@+id/Mechant_Registration_CityET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Mechant_Registration_AddressET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/city"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+                <EditText
+                    android:id="@+id/Mechant_Registration_StateET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Mechant_Registration_CityET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/state"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+                <Spinner
+                    android:id="@+id/Mechant_Registration_CountryET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Mechant_Registration_StateET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:gravity="center_vertical"
+                    android:hint="@string/country"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:textColorHint="@color/TEXT_RESULT_COLOR"
+                    android:textSize="@dimen/edit_text_size"
+                    android:focusableInTouchMode="true"
+                    android:focusable="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/ProgressBar_layout"
+        layout="@layout/main_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</RelativeLayout>

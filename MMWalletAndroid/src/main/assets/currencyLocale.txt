@@ -1,0 +1,21 @@
+Loyalty|LP|Loyalty points|PTS|1|000|2|3|,|.|Pts
+Australia|AU|Australian dollar|AUD|36|61|2|3|,|.|A$
+Fiji|FJ|Fiji Dollar|DFJD|242|679|2|3|,|.|DFJ$
+Fiji|FJ|Fiji Dollar|FJD|243|679|2|3|,|.|FJ$
+Ghana|GH|Ghanian cedi|GHS|936|233|2|3|,|.|GHc
+Indonesia|ID|Indonesian rupiah|IDR|360|62|0|3|,|.|Rp
+New Zealand|NZ|New Zealand dollar|NZD|554|64|2|3|,|.|NZ$
+Nigeria|NG|Nigerian naira|NGN|566|234|2|3|,|.|N
+Papua New Guinea|PG|Papua New Guinean kina|PGK|598|675|2|3|,|.|K
+Singapore|SG|Singapore dollar|SGD|702|65|2|3|,|.|S$
+Sweden|SE|Swedish krona|SEK|752|46|2|3|,|.|kr
+Tonga|TO|Tongan pa'anga|DTOP|776|676|2|3|,|.|DT$
+Tanzania|TZ|Tanzanian shilling|TZS|834|255|2|3|,|.|TSh
+United States|US|United States dollar|USD|840|1|2|3|,|.|$
+Samoa|WS|Samoan Tala|DWST|882|685|2|3|,|.|DWS$
+Zambia|ZM|Zambian kwacha|ZMK|894|260|,2|3|,|.|ZK
+Afghanistan|AF|Afghan afghani|AFN|971|9370|2|3|,|.|Af
+European union|EU|Euro|EUR|978|xxx|2|3|,|.|E
+Rwanda|RW|Rwandan Franc|RWF|646|250|0|3|,|.|RF
+Uganda|UG|Uganda Shilling|UGX|800|256|0|3|,|.|USh
+Congo DRC|DRC|Congolese Franc|CDF|976|243|0|3|,|.|CDF

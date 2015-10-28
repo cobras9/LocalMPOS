@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/OFF_WHITE"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/Multi_Registration_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:gravity="center"
+        android:text="Registration"
+        android:textColor="@color/TEXT_REGISTRATION_NORMAL"
+        android:textSize="@dimen/title_size" />
+
+    <Button
+        android:id="@+id/Multi_Registration_Add_Terminal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Multi_Registration_Title"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+        android:layout_marginRight="@dimen/edit_text_padding_left_right"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:layout_toLeftOf="@id/dummyButton"
+        android:layout_toStartOf="@id/dummyButton"
+        android:background="@drawable/error_button_background"
+        android:gravity="center"
+        android:text="@string/button_add_terminals"
+        android:textColor="@color/registration_register_button_text_color"
+        android:textSize="@dimen/title_size" />
+
+    <Button
+        android:id="@+id/Multi_Registration_Add_New_Merchant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Multi_Registration_Add_Terminal"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+        android:layout_marginRight="@dimen/edit_text_padding_left_right"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:layout_toLeftOf="@id/dummyButton"
+        android:layout_toStartOf="@id/dummyButton"
+        android:background="@drawable/error_button_background"
+        android:gravity="center"
+        android:text="@string/button_add_new_merchant"
+        android:textColor="@color/registration_register_button_text_color"
+        android:textSize="@dimen/title_size" />
+</RelativeLayout>

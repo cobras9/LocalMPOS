@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name" translatable="false">Assotel</string>
+    <string name="SERVER_IP" translatable="false">10.0.0.62</string>
+<!--    <string name="SERVER_IP" translatable="false">10.100.7.3</string>-->
+
+    <string name="SERVER_PORT" translatable="false">2993</string>
+    <string name="LABEL_SUBSCRIBER" translatable="false">SUBSCRIBER</string>
+    <string name="LABEL_MERCHANT" translatable="false">RETAILER</string>
+    <string name="LABEL_AGENT" translatable="false">AGENT</string>
+    <string name="LABEL_SUPERAGENT" translatable="false">SUB DEALER</string>
+    <string name="LABEL_MMSTAFF" translatable="false">DEALER</string>
+    <string name="LABEL_FEE" translatable="false">Discount:</string>
+    <string name="OPERATOR_ACMANUMBER" translatable="false">2341111111101</string>
+    <string name="DEFAULT_CURRENCY" translatable="false">NGN</string>
+
+
+    <color name="BUTTON_COLOR">@color/ASSOTEL_FF_0094DE</color>
+    <color name="BUTTON_COLOR_PRESSED">@color/ASSOTEL_FF_0F7FFF</color>
+    <color name="BUTTON_TEXT_COLOR">@color/WHITE</color>
+    <color name="OFF_WHITE">@color/CC_WHITE</color>
+    <color name="APP_MAIN_COLOR">@color/WHITE</color>
+    <color name="LOGIN_SCREEN_MAIN_COLOR">@color/ASSOTEL_FF_0094DE</color>
+    <!--042B48-->
+    <color name="APP_MAIN_TEXT_COLOR">@color/ASSOTEL_FF_0094DE</color>
+    <color name="ACTIONBAR_THEME_COLOR">@color/WHITE</color>
+    <!--<color name="tab_normal">@color/WHITE</color>-->
+    <color name="TAB_NORMAL">@color/ASSOTEL_77_02599E</color>
+    <color name="TAB_PRESSED">@color/WHITE</color>
+    <color name="TAB_BACKGROUND_NORMAL">@color/ASSOTEL_77_02599E</color>
+    <color name="TAB_BACKGROUND_PRESSED">@color/WHITE</color>
+    <color name="TAB_SEP_TOP">@color/ASSOTEL_88_0079C1</color>
+    <color name="TEXT_NORMAL">@color/ASSOTEL_FF_0094DE</color>
+    <color name="QUICK_PAY_PRESSED">@color/ASSOTEL_55_0079C1</color>
+    <color name="TAB_SEP_BOTTOM">@color/ASSOTEL_88_0079C1</color>
+    <color name="TEXT_COLOR">@color/ASSOTEL_FF_0094DE</color>
+    <color name="QUICKPAY_BACKGROUND">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_BORDER">@color/ASSOTEL_FF_0094DE</color>
+    <color name="CUST_REG_CELL_SHAPE_FILL">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_BORDER">@color/ASSOTEL_FF_0094DE</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_FILL">@color/ASSOTEL_FF_0094DE</color>
+<!--    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">#ffff90</color>-->
+    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">@color/ASSOTEL_FF_0094DE</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">@color/ASSOTEL_FF_094C73</color>
+    <color name="LOGIN_TEXT_COLOR">@color/ASSOTEL_FF_0094DE</color>
+    <color name="ACTIONBAR_TITLE_TEXT_COLOR">@color/ASSOTEL_FF_0094DE</color>
+
+    <bool name="CASH_IN_EXCHANGE_QUOTE_ON">true</bool>
+    <color name="APP_FRAGMENT_BACKGROUND_COLOR">@color/WHITE</color>
+    <color name="TRANSACTION_LIST_COLOR">@color/ASSOTEL_FF_0094DE</color>
+    <!--Customer color definitions start -->
+    <color name="ASSOTEL_FF_0094DE">#FF0094DE</color>
+    <color name="ASSOTEL_FF_094C73">#FF094C73</color>
+    <color name="ASSOTEL_FF_0F7FFF">#FF0F7FFF</color>
+    <color name="ASSOTEL_77_02599E">#7702599E</color>
+    <color name="ASSOTEL_88_0079C1">#880079C1</color>
+    <color name="ASSOTEL_55_0079C1">#550079C1</color>
+    <!--Customer color definitions end -->
+</resources>

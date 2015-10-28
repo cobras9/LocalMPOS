@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/SIR_HEADER_TOP_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_60"
+        android:background="@color/APP_MAIN_COLOR">
+
+        <TextView
+            android:id="@+id/SIR_HEADER_LABEL"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+         android:gravity="center_vertical"
+            android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+            android:text="@string/header_social_id_data"
+            android:textColor="@color/WHITE"
+            android:textSize="@dimen/TEXT_SIZE_22" />
+
+        <ImageView
+            android:id="@+id/SIR_HEADER_menu"
+            android:layout_width="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+            android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+            android:background="@drawable/menu_pressed" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/SIR_HEADER_BOTTOM_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SIR_HEADER_TOP_LAYOUT"
+        android:background="@color/WHITE">
+
+        <com.tobishiba.snappingseekbar.library.views.SnappingSeekBar
+            android:id="@+id/SIR_SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:indicatorColor="@color/APP_MAIN_COLOR"
+            app:itemsAmount="6"
+            app:progressColor="@color/APP_MAIN_COLOR"
+            app:thumbnailColor="@color/APP_MAIN_COLOR" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/CONF_DIVIDER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_6"
+        android:paddingTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_6"
+        android:text="@string/CONF_ITEM_DIVIDER"
+        android:textColor="@color/APP_MAIN_TEXT_COLOR"
+        android:textSize="@dimen/TEXT_SIZE_14" />
+
+    <TextView
+        android:id="@+id/CONF_KEY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_toLeftOf="@id/CONF_DIVIDER"
+        android:paddingBottom="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_6"
+        android:paddingRight="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_6"
+        android:paddingTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_6"
+        android:text="@string/CONF_ITEM_KEY"
+        android:textColor="@color/APP_MAIN_TEXT_COLOR"
+        android:textSize="@dimen/TEXT_SIZE_14" />
+
+    <TextView
+        android:id="@+id/CONF_VALUE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/CONF_DIVIDER"
+        android:gravity="left"
+        android:paddingBottom="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_6"
+        android:paddingLeft="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_6"
+        android:paddingTop="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_6"
+        android:text="@string/CONF_ITEM_VALUE"
+        android:textColor="@color/APP_MAIN_TEXT_COLOR"
+        android:textSize="@dimen/TEXT_SIZE_14" />
+</RelativeLayout>

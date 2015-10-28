@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/APP_FRAGMENT_BACKGROUND_COLOR"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+    <!--   android:background="@drawable/customer_creation_background"-->
+
+
+    <Button
+        android:id="@+id/dummyButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/Customer_Registration_CancelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+        android:layout_marginRight="@dimen/edit_text_padding_left_right"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:layout_toLeftOf="@id/dummyButton"
+        android:layout_toStartOf="@id/dummyButton"
+        android:background="@drawable/error_button_background"
+        android:gravity="center"
+        android:text="@string/button_cancel"
+        android:textColor="@color/registration_register_button_text_color"
+        android:textSize="@dimen/title_size" />
+
+
+    <Button
+        android:id="@+id/Customer_Registration_SubmitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+        android:layout_marginRight="@dimen/edit_text_padding_left_right"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:layout_toEndOf="@id/dummyButton"
+        android:layout_toRightOf="@id/dummyButton"
+        android:background="@drawable/error_button_background"
+        android:gravity="center"
+        android:text="@string/button_submit"
+        android:textColor="@color/registration_register_button_text_color"
+        android:textSize="@dimen/title_size" />
+
+    <ScrollView
+        android:id="@+id/Customer_Registration_ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Customer_Registration_SubmitBtn">
+
+        <RelativeLayout
+            android:id="@+id/Customer_Registration_RootView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+            android:layout_marginRight="@dimen/edit_text_padding_left_right">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/Customer_Registration_AccessNumberIdET"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_marginTop="@dimen/edit_text_margin_top"
+                android:background="@drawable/background_send_money_linear"
+                android:gravity="center_vertical"
+                android:hint="@string/customer_contact_no"
+                android:inputType="number"
+                android:paddingLeft="@dimen/edit_text_padding_left_right"
+                android:paddingRight="@dimen/edit_text_padding_left_right"
+                android:tag="validate"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="@dimen/edit_text_size" />
+
+            <Button
+                android:id="@+id/Customer_Registration_LookUp_Customer_Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Customer_Registration_AccessNumberIdET"
+                android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+                android:layout_marginTop="@dimen/edit_text_margin_top"
+                android:background="@drawable/error_button_background"
+                android:gravity="center"
+                android:text="@string/REGISTER_CUSTOMER"
+                android:textColor="@color/registration_register_button_text_color"
+                android:textSize="@dimen/title_size" />
+
+            <RelativeLayout
+                android:id="@+id/Customer_Registration_Details_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Customer_Registration_AccessNumberIdET"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/Customer_Registration_CustomerIdET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/customer_contact_no"
+                    android:inputType="phone"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/Customer_Registration_PinET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Customer_Registration_CustomerIdET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/pin"
+                    android:inputType="numberPassword"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/Customer_Registration_Confirm_PinET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Customer_Registration_PinET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/confirm_pin"
+                    android:inputType="numberPassword"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size"
+                    android:visibility="gone" />
+
+
+                <EditText
+                    android:id="@+id/Customer_Registration_Given_NameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Customer_Registration_Confirm_PinET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/first_name"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+
+
+                <EditText
+                    android:id="@+id/Customer_Registration_SurnameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Customer_Registration_Given_NameET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/sur_name"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <EditText
+                    android:id="@+id/Customer_Registration_BusinessNameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Customer_Registration_SurnameET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/business_name"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/Customer_Registration_EmailET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Customer_Registration_BusinessNameET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <EditText
+                    android:id="@+id/Customer_Registration_DOBET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@+id/Customer_Registration_EmailET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_vertical"
+                    android:hint="@string/dob"
+                    android:inputType="date"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <EditText
+                    android:id="@+id/Customer_Registration_AddressET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Customer_Registration_DOBET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/address"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <EditText
+                    android:id="@+id/Customer_Registration_CityET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Customer_Registration_AddressET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/city"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <EditText
+                    android:id="@+id/Customer_Registration_StateET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Customer_Registration_CityET"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:background="@drawable/background_send_money_linear"
+                    android:gravity="center_vertical"
+                    android:hint="@string/state"
+                    android:inputType="textCapSentences"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:tag="validate"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <Spinner
+                    android:id="@+id/Customer_Registration_CountryET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_below="@id/Customer_Registration_StateET"
+                    android:layout_marginLeft="@dimen/margin_between_elements"
+                    android:layout_marginRight="@dimen/margin_between_elements"
+                    android:layout_marginTop="@dimen/edit_text_margin_top"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_vertical"
+                    android:hint="@string/country"
+                    android:paddingLeft="@dimen/edit_text_padding_left_right"
+                    android:paddingRight="@dimen/edit_text_padding_left_right"
+                    android:textColorHint="@color/TEXT_RESULT_COLOR"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <Spinner
+                    android:id="@+id/Customer_CustomerType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Customer_Registration_CountryET"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/margin_between_elements"
+                    android:layout_marginRight="@dimen/margin_between_elements"
+
+                    android:gravity="left" />
+
+                <RelativeLayout
+                    android:id="@+id/Customer_PhotoLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Customer_CustomerType"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/Customer_Registration_PhotoIdLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_40"
+                        android:layout_marginTop="@dimen/edit_text_margin_top"
+                        android:gravity="center_vertical"
+                        android:text="Photo :"
+                        android:textColor="@color/TEXT_CUSTOMER_REGISTRATION_NORMAL"
+                        android:textSize="@dimen/edit_text_size" />
+
+                    <ImageView
+                        android:id="@+id/Customer_Registration_PhotoId"
+                        android:layout_width="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_60"
+                        android:layout_height="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_60"
+                        android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+                        android:layout_marginTop="@dimen/edit_text_margin_top"
+                        android:layout_toRightOf="@id/Customer_Registration_PhotoIdLabel"
+                        android:gravity="center_vertical"
+                        android:src="@drawable/icon"/>
+
+                    <Button
+                        android:id="@+id/Customer_Registration_PhotoBTN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/Customer_Registration_PhotoId"
+                        android:background="@drawable/error_button_background"
+                        android:gravity="center"
+                        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+                        android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+                        android:layout_marginRight="@dimen/edit_text_padding_left_right"
+                        android:paddingLeft="@dimen/edit_text_padding_left_right"
+                        android:paddingRight="@dimen/edit_text_padding_left_right"
+                        android:layout_marginTop="@dimen/edit_text_margin_top"
+                        android:text="Take photo"
+                        android:textColor="@color/registration_register_button_text_color" />
+                </RelativeLayout>
+
+                <Spinner
+                    android:id="@+id/Customer_IdVerification_Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Customer_PhotoLayout"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_between_elements"
+                    android:layout_marginLeft="@dimen/margin_between_elements"
+                    android:layout_marginRight="@dimen/margin_between_elements"
+                    android:gravity="left" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/ProgressBar_layout"
+        layout="@layout/main_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</RelativeLayout>

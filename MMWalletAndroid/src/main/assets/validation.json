@@ -1,0 +1,7 @@
+[
+  {
+    "rule_name": "CUSTOMERAMOUNT",
+    "rule": "#######.##",
+    "rule_reg":"^\\d{0,9}$"
+  }
+]

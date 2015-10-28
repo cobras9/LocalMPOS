@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE">
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--<SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/icon"
+        android:progressDrawable="@drawable/horizontal_progress"/>-->
+    <include
+        android:id="@+id/SIR_HEADER_LAYOUT"
+        layout="@layout/social_id_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <include
+        android:id="@+id/SIR_FOOTER_LAYOUT"
+        layout="@layout/social_id_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <RelativeLayout
+        android:id="@+id/SIR_CONTENT_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/SIR_FOOTER_LAYOUT"
+        android:layout_below="@id/SIR_HEADER_LAYOUT"
+        android:padding="@dimen/PADDING_MARGIN_WIDTH_HEIGHT_10"
+     >
+
+        <EditText
+            android:id="@+id/SIR_ID_CARD_NO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/TEXT_SIZE_20"
+            android:background="@drawable/social_edittext"
+            android:hint="@string/social_id_card_no" />
+        <include
+            android:id="@+id/SIR_PERSONAL_LAYOUT"
+            layout="@layout/social_id_personal_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+           />
+        <include
+            android:id="@+id/SIR_BIRTH_LAYOUT"
+            layout="@layout/social_id_birth_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            />
+        <include
+            android:id="@+id/SIR_ADDRESS_LAYOUT"
+            layout="@layout/social_id_address_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            />
+        <include
+            android:id="@+id/SIR_ADDRESS_LAYOUT"
+            layout="@layout/social_id_images"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <!--app:itemsArrayId="@array/seek_bar_with_strings_items"-->
+</RelativeLayout>

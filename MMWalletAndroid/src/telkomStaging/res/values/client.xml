@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name" translatable="false">Telkomsel</string>
+    <string name="SERVER_IP" translatable="false">14.1.43.12</string>
+    <string name="SERVER_PORT" translatable="false">2994</string>
+    <string name="REQUESTS_NUM" translatable="false">1</string>
+    <string name="DEFAULT_CURRENCY" translatable="false">IDR</string>
+    <integer name="PIN_LENGTH">6</integer>
+
+    <bool name="supportExternalInternalTopup">true</bool>
+    <color name="OFF_WHITE">@color/CC_WHITE</color>
+    <color name="APP_MAIN_COLOR">@color/TELKOM_FF_EF1C23</color>
+    <color name="ACTIONBAR_THEME_COLOR">@color/TELKOM_FF_EF1C23</color>
+    <color name="APP_MAIN_TEXT_COLOR">@color/WHITE</color>
+    <color name="QUICKPAY_BACKGROUND">@color/TELKOM_FF_EF1C23</color>
+    <color name="APP_MAIN_COLOR_DARKER">@color/TELKOM_FF_A90000</color>
+    <color name="TAB_PRESSED">@color/WHITE</color>
+    <color name="TAB_BACKGROUND_PRESSED">@color/TELKOM_FF_FF0800</color>
+    <color name="TAB_SEP_TOP">@color/TELKOM_88_EF1C23</color>
+    <color name="QUICK_PAY_PRESSED">@color/TELKOM_88_EF1C23</color>
+    <color name="TAB_SEP_BOTTOM">@color/TELKOM_88_EF1C23</color>
+    <color name="BUTTON_COLOR">@color/TELKOM_FF_A10005</color>
+    <color name="BUTTON_COLOR_PRESSED">@color/TELKOM_FF_B65E61</color>
+    <color name="CUST_REG_CELL_SHAPE_BORDER">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_FILL">@color/TELKOM_FF_EF1C23</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_BORDER">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_FILL">@color/WHITE</color>
+    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">@color/TELKOM_FF_EF1C23</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">@color/TELKOM_FF_FF0800</color>
+    <color name="APP_FRAGMENT_BACKGROUND_COLOR">@color/TELKOM_FF_EF1C23</color>
+    <color name="TEXT_REGISTRATION_NORMAL">@color/TELKOM_FF_EF1C23</color>
+    <color name="COUNTRY_SPINNER_COLOR">@color/WHITE</color>
+    <!--Customer color definitions start -->
+    <color name="TELKOM_FF_EF1C23">#FFEF1C23</color>
+    <color name="TELKOM_FF_A90000">#FFA90000</color>
+    <color name="TELKOM_88_EF1C23">#88EF1C23</color>
+    <color name="TELKOM_FF_A10005">#FFA10005</color>
+    <color name="TELKOM_FF_FF0800">#FFFF0800</color>
+    <color name="TELKOM_FF_B65E61">#FFB65E61</color>
+    <color name="TELKOM_FF_F62217">#FFF62217</color>
+    <!--Customer color definitions end -->
+    <color name="TEXT_CUSTOMER_REGISTRATION_NORMAL">@color/WHITE</color>
+</resources>

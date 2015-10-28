@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <Button
+        android:id="@+id/dummyButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/SIR_FOOTER_CANCEL_BUTTON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+        android:layout_marginRight="@dimen/edit_text_padding_left_right"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:layout_toLeftOf="@id/dummyButton"
+        android:layout_toStartOf="@id/dummyButton"
+        android:background="@drawable/error_button_background"
+        android:gravity="center"
+        android:text="@string/social_id_cancel_button"
+        android:textColor="@color/registration_register_button_text_color"
+        android:textSize="@dimen/title_size" />
+
+
+    <Button
+        android:id="@+id/SIR_FOOTER_NEXT_BUTTON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/edit_text_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_text_padding_left_right"
+        android:layout_marginRight="@dimen/edit_text_padding_left_right"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:layout_toEndOf="@id/dummyButton"
+        android:layout_toRightOf="@id/dummyButton"
+        android:background="@drawable/error_button_background"
+        android:gravity="center"
+        android:text="@string/social_id_next_button"
+        android:textColor="@color/registration_register_button_text_color"
+        android:textSize="@dimen/title_size" />
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">ECASH</string>
+    <string name="SERVER_IP" translatable="false">14.1.43.12</string>
+    <string name="SERVER_PORT" translatable="false">2994</string>
+<!--    <string name="SERVERXX_IP" translatable="false">192.168.2.59</string>
+    <string name="SERVERXXX_PORT" translatable="false">2666</string>-->
+    <string name="REQUESTS_NUM" translatable="false">4</string>
+    <string name="DEFAULT_CURRENCY" translatable="false">RWF</string>
+    <bool name="supportExternalInternalTopup">true</bool>
+    <bool name="PAY_PIN_REQUIRED">false</bool>
+    <bool name="AUTO_REQUEST_TRANSACTIONS">true</bool>
+    <string translatable="false" name="ONBOARD_NFC">both</string>
+
+    <color name="APP_FRAGMENT_BACKGROUND_COLOR">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="APP_MAIN_COLOR">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="ACTIONBAR_THEME_COLOR">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="TAB_PRESSED">@color/ECASH_GREEN_FF_47A75B</color>
+    <color name="APP_MAIN_TEXT_COLOR">@color/BLACK</color>
+    <color name="QUICKPAY_BACKGROUND">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="QUICK_PAY_PRESSED">@color/ECASH_GREEN_FF_47A75B</color>
+    <color name="APP_MAIN_COLOR_DARKER">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="TAB_BACKGROUND_PRESSED">@color/ECASH_GREEN_FF_47A75B</color>
+    <color name="TAB_BACKGROUND_NORMAL">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="TAB_SEP_TOP">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="TAB_SEP_BOTTOM">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="BUTTON_COLOR">@color/ECASH_GREEN_FF_47A75B</color>
+    <color name="OFF_WHITE">@color/CC_WHITE</color>
+    <color name="BUTTON_COLOR_PRESSED">@color/ECASH_GREEN_FF_154720</color>
+    <color name="CUST_REG_CELL_SHAPE_BORDER">@color/BLACK</color>
+    <color name="CUST_REG_CELL_SHAPE_FILL">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_BORDER">@color/BLACK</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_FILL">@color/BLACK</color>
+
+
+    <color name="circular_progress_dialog_color">@color/ECASH_GREEN_FF_47A75B</color>
+    <color name="circular_progress_dialog_center_color">@color/BLACK</color>
+    <color name="LOGGING_PROGRESS_TEXT_COLOR">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="TEXT_NORMAL">@color/WHITE</color>
+
+
+    <color name="TEXT_COLOR">@color/WHITE</color>
+
+    <color name="BUTTON_TEXT_COLOR">@color/WHITE</color>
+    <color name="ACTIONBAR_TITLE_TEXT_COLOR">@color/WHITE</color>
+
+
+    <color name="LOGIN_TEXT_COLOR">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="TEXT_RESULT_COLOR">@color/WHITE</color>
+    <color name="main_app_color">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="action_bar_color">@color/BLACK</color>
+    <color name="theme_background_gradient_start_color">@color/BLACK</color>
+    <color name="theme_background_gradient_end_color">@color/BLACK</color>
+    <!-- Customer colors definitions start -->
+
+<!--    <color name="ECASH_FF_D86122">#FFD86122</color>
+    <color name="ECASH_FF_EBE090">#FFAD4F1B</color>
+    <color name="ECASH_FF_BF5721">#FFBF5721</color>
+    <color name="ECASH_11_BF5721">#11BF5721</color>-->
+
+    <color name="ECASH_GREEN_FF_255C30">#FF255C30</color>
+    <color name="ECASH_GREEN_FF_47A75B">#FF47A75B</color>
+    <color name="ECASH_GREEN_FF_154720">#FF154720</color>
+    <color name="BALANCE_BACKGROUND_COLOR">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="TRANSACTION_LIST_COLOR">@color/WHITE</color>
+    <color name="TRANSACTION_LIST_BACKGROUND_COLOR">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="LOGIN_KEYPAD_BUTTON_TEXT_COLOR">@color/WHITE</color>
+    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">@color/ECASH_GREEN_FF_47A75B</color>
+    <style name="ActionBarTabStyle" parent="@android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/ACTIONBAR_THEME_COLOR</item>
+        <item name="android:height">65dp</item>
+    </style>
+    <color name="ABOUT_TEXT_COLOR">@color/WHITE</color>
+    <color name="TEXT_REGISTRATION_NORMAL">@color/ECASH_GREEN_FF_255C30</color>
+    <color name="TEXT_REGISTRATION_ERROR">@color/WHITE</color>
+</resources>

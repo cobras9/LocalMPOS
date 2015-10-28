@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name" translatable="false">Ericsson</string>
+    <string name="SERVER_IP" translatable="false">14.1.43.12</string>
+    <string name="SERVER_PORT" translatable="false">2986</string>
+    <string name="DEFAULT_CURRENCY" translatable="false">EUR</string>
+    <bool name="supportExternalInternalTopup">true</bool>
+    <bool name="CASH_IN_EXCHANGE_QUOTE_ON">false</bool>
+    <bool name="PAY_PIN_REQUIRED">true</bool>
+    <bool name="AUTO_REQUEST_TRANSACTIONS">false</bool>
+    <color name="BUTTON_COLOR">@color/ERICSSON_FF_0E4D72</color>
+    <color name="BUTTON_COLOR_PRESSED">@color/ERICSSON_FF_0F7FFF</color>
+
+
+    <color name="QUICKPAY_BACKGROUND">@color/ERICSSON_77_042B48</color>
+    <color name="OFF_WHITE">@color/CC_WHITE</color>
+    <color name="APP_MAIN_COLOR">@color/ERICSSON_FF_042B48</color>
+    <color name="APP_MAIN_TEXT_COLOR">@color/WHITE</color>
+
+    <color name="ACTIONBAR_THEME_COLOR">@color/ERICSSON_FF_042B48</color>
+    <!--<color name="tab_normal">@color/WHITE</color>-->
+    <color name="TAB_NORMAL">@color/ERICSSON_77_000000</color>
+    <!--<color name="TAB_PRESSED">@color/ERICSSON_FF_042B48</color>-->
+    <color name="TAB_PRESSED">@color/WHITE</color>
+    <color name="TAB_BACKGROUND_NORMAL">@color/ERICSSON_77_000000</color>
+    <color name="TAB_BACKGROUND_PRESSED">@color/ERICSSON_FF_042B48</color>
+
+    <color name="TAB_SEP_TOP">@color/ERICSSON_88_0079C1</color>
+    <color name="TEXT_NORMAL">@color/WHITE</color>
+    <color name="QUICK_PAY_PRESSED">@color/ERICSSON_55_0079C1</color>
+    <color name="TAB_SEP_BOTTOM">@color/ERICSSON_88_0079C1</color>
+
+    <color name="CUST_REG_CELL_SHAPE_BORDER">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_FILL">@color/ERICSSON_FF_042B48</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_BORDER">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_FILL">@color/WHITE</color>
+
+    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">@color/ERICSSON_FF_0079C1</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">@color/ERICSSON_FF_042B48</color>
+    <color name="APP_FRAGMENT_BACKGROUND_COLOR">@color/ERICSSON_FF_042B48</color>
+
+    <!--Customer color definitions start -->
+    <color name="ERICSSON_FF_042B48">#FF042B48</color>
+    <color name="ERICSSON_FF_0079C1">#FF0079C1</color>
+    <color name="ERICSSON_88_0079C1">#880079C1</color>
+    <color name="ERICSSON_55_0079C1">#550079C1</color>
+    <color name="ERICSSON_77_000000">#77000000</color>
+    <color name="ERICSSON_77_042B48">#77042B48</color>
+    <color name="ERICSSON_FF_0E4D72">#FF0E4D72</color>
+    <color name="ERICSSON_FF_0F7FFF">#FF0F7FFF</color>
+    <color name="COUNTRY_SPINNER_COLOR">@color/ERICSSON_FF_0079C1</color>
+    <!--Customer color definitions end -->
+    <color name="TRANSACTION_LIST_COLOR">@color/WHITE</color>
+    <color name="TRANSACTION_LIST_BACKGROUND_COLOR">@color/ERICSSON_FF_042B48</color>
+</resources>

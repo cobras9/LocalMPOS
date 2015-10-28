@@ -1,0 +1,106 @@
+[
+  {
+    "country_name": "!Nigeria",
+    "country_code": "566",
+    "banks": [
+      {
+        "name": "Access Bank PLC",
+        "code": "044"
+      },
+      {
+        "name": "Main Street Bank Nigeria PLC",
+        "code": "014"
+      },
+      {
+        "name": "Keystone Bank PLC",
+        "code": "082"
+      },
+      {
+        "name": "Diamond Bank PLC",
+        "code": "063"
+      },
+      {
+        "name": "Ecobank Nigeria PLC",
+        "code": "050"
+      },
+      {
+        "name": "Fidelity Nigeria PLC",
+        "code": "070"
+      },
+      {
+        "name": "First Bank of Nigeria PLC",
+        "code": "011"
+      },
+      {
+        "name": "First City Monument Bank PLC",
+        "code": "214"
+      },
+      {
+        "name": "Guaranty Trust Bank PLC",
+        "code": "058"
+      },
+      {
+        "name": "Stanbic IBTC Bank PLC",
+        "code": "221"
+      },
+      {
+        "name": "Citi Bank",
+        "code": "023"
+      },
+      {
+        "name": "Skye Bank PLC",
+        "code": "076"
+      },
+      {
+        "name": "Enterprise Bank PLC",
+        "code": "084"
+      },
+      {
+        "name": "Standard Chartered Bank PLC",
+        "code": "068"
+      },
+      {
+        "name": "Sterling Bank PLC",
+        "code": "232"
+      },
+      {
+        "name": "Union Bank of Nigeria PLC",
+        "code": "032"
+      },
+      {
+        "name": "United Bank of Africa PLC",
+        "code": "033"
+      },
+      {
+        "name": "Unity Bank PLC",
+        "code": "215"
+      },
+      {
+        "name": "Wema Bank PLC",
+        "code": "035"
+      },
+      {
+        "name": "Zenith International Bank PLC",
+        "code": "057"
+      },
+      {
+        "name": "Heritage Bank",
+        "code": "030"
+      }
+    ]
+  },
+  {
+    "country_name": "!AFGHANISTAN",
+    "country_code": "971",
+    "banks": [
+      {
+        "name": "Maiwand Bank",
+        "code": "MAIW"
+      },
+      {
+        "name": "New Kabul Bank",
+        "code": "NKB"
+      }
+    ]
+  }
+]

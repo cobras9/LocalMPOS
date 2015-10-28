@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--EZLink - Demo-->
+    <string name="app_name" translatable="false">ADB</string>
+    <string name="SERVER_IP" translatable="false">14.1.43.12</string>
+    <string name="SERVER_PORT" translatable="false">2994</string>
+    <string name="LABEL_SUBSCRIBER" translatable="false">SUBSCRIBER</string>
+    <string name="LABEL_MERCHANT" translatable="false">MERCHANT</string>
+    <string name="LABEL_AGENT" translatable="false">AGENT</string>
+    <string name="LABEL_SUPERAGENT" translatable="false">SUPERAGENT</string>
+    <string name="LABEL_MMSTAFF" translatable="false">MMSTAFF</string>
+
+    <!-- colors (To aovid confusion, using this as the default resource instead of putting colors in a separate xml -->
+    <color name="BUTTON_COLOR">@color/ADB_FF_0094DE</color>
+    <color name="BUTTON_COLOR_PRESSED">#0F7FFF</color>
+    <color name="BUTTON_TEXT_COLOR">@color/WHITE</color>
+    <color name="OFF_WHITE">#CCFFFFFF</color>
+    <color name="APP_MAIN_COLOR">@color/WHITE</color>
+    <color name="LOGIN_SCREEN_MAIN_COLOR">@color/ADB_FF_0094DE</color>
+    <!--042B48-->
+    <color name="APP_MAIN_TEXT_COLOR">@color/ADB_FF_0094DE</color>
+    <color name="ACTIONBAR_THEME_COLOR">@color/WHITE</color>
+    <!--<color name="tab_normal">@color/WHITE</color>-->
+    <color name="TAB_NORMAL">@color/ADB_77_02599E</color>
+    <color name="TAB_PRESSED">@color/WHITE</color>
+    <color name="TAB_BACKGROUND_NORMAL">@color/ADB_77_02599E</color>
+    <color name="TAB_BACKGROUND_PRESSED">@color/WHITE</color>
+    <color name="TAB_SEP_TOP">@color/ADB_88_0079C1</color>
+    <color name="TEXT_NORMAL">@color/ADB_FF_0094DE</color>
+    <color name="QUICK_PAY_PRESSED">@color/ADB_55_0079C1</color>
+    <color name="TAB_SEP_BOTTOM">@color/ADB_88_0079C1</color>
+    <color name="TEXT_COLOR">@color/ADB_FF_0094DE</color>
+    <color name="QUICKPAY_BACKGROUND">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_BORDER">@color/ADB_FF_0094DE</color>
+    <color name="CUST_REG_CELL_SHAPE_FILL">@color/WHITE</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_BORDER">@color/ADB_FF_0094DE</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_FILL">@color/ADB_FF_0094DE</color>
+<!--    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">#ffff90</color>
+        <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">@color/ADB_FF_0094DE</color>-->
+
+    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">@color/ADB_FF_0094DE</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">@color/ADB_FF_094C73</color>
+
+    <color name="LOGIN_TEXT_COLOR">@color/ADB_FF_0094DE</color>
+    <color name="ACTIONBAR_TITLE_TEXT_COLOR">@color/ADB_FF_0094DE</color>
+    <color name="APP_FRAGMENT_BACKGROUND_COLOR">@color/WHITE</color>
+    <color name="TRANSACTION_LIST_COLOR">@color/ADB_FF_0094DE</color>
+    <!--Customer color definitions start -->
+    <color name="ADB_88_0079C1">#880079C1</color>
+    <color name="ADB_FF_0094DE">#FF0094DE</color>
+    <color name="ADB_55_0079C1">#550079C1</color>  
+    <color name="ADB_77_02599E">#7702599E</color>
+    <color name="ADB_FF_0F7FFF">#FF0F7FFF</color>
+    <color name="ADB_FF_094C73">#FF094C73</color>
+    
+</resources>

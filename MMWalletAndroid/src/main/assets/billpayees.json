@@ -1,0 +1,362 @@
+[
+  {
+    "country_name": "!Nigeria",
+    "country_code": "566",
+    "payees": [
+      {
+        "name": "Edo Waste Disposable Bags",
+        "code": "20198",
+        "payeeId": "93701001008",
+        "amount": "0"
+      },
+      {
+        "name": "Edo Waste Collections",
+        "code": "20197",
+        "payeeId": "93701001008",
+        "amount": "0"
+      },
+      {
+        "name": "PHCN Postpaid",
+        "code": "10301",
+        "payeeId": "93701001008",
+        "amount": "0"
+      },
+      {
+        "name": "PHCN Prepaid",
+        "code": "21901",
+        "payeeId": "93701001008",
+        "amount": "0"
+      },
+      {
+        "name": "PHCN Postpaid Ibadan",
+        "code": "24601",
+        "payeeId": "93701001008",
+        "amount": "0"
+      },
+      {
+        "name": "PHCN Prepaid Eko",
+        "code": "50101",
+        "payeeId": "93701001008",
+        "amount": "0"
+      },
+      {
+        "name": "ACCESS BOUQ+FRENCH",
+        "code": "10433",
+        "payeeId": "93701001008",
+        "amount": "755000"
+      },
+      {
+        "name": "ACCESS BOUQUET",
+        "code": "10428",
+        "payeeId": "93701001008",
+        "amount": "150000"
+      },
+      {
+        "name": "ACCESS BOUQUET+ASIA",
+        "code": "10432",
+        "payeeId": "93701001008",
+        "amount": "550000"
+      },
+      {
+        "name": "ACCESS BOUQUET+DUAL",
+        "code": "10429",
+        "payeeId": "93701001008",
+        "amount": "330000"
+      },
+      {
+        "name": "ACCESS BOUQ+EXTR VW",
+        "code": "10434",
+        "payeeId": "93701001008",
+        "amount": "330000"
+      },
+      {
+        "name": "ACCESS BOUQ+GERMAN",
+        "code": "10436",
+        "payeeId": "93701001008",
+        "amount": "453000"
+      },
+      {
+        "name": "ACCESS BOUQ+PVR ACC",
+        "code": "10435",
+        "payeeId": "93701001008",
+        "amount": "330000"
+      },
+      {
+        "name": "ASIAN BOUQUET",
+        "code": "10417",
+        "payeeId": "93701001008",
+        "amount": "400000"
+      },
+      {
+        "name": "ASIAN BOUQUET+DUAL",
+        "code": "10420",
+        "payeeId": "93701001008",
+        "amount": "580000"
+      },
+      {
+        "name": "ASIAN BOUQ+EXTR VW",
+        "code": "10459",
+        "payeeId": "93701001008",
+        "amount": "580000"
+      },
+      {
+        "name": "ASIAN BOUQ+PVR ACC",
+        "code": "10460",
+        "payeeId": "93701001008",
+        "amount": "580000"
+      },
+      {
+        "name": "COMP PLUS+ASIA",
+        "code": "10445",
+        "payeeId": "93701001008",
+        "amount": "1185000"
+      },
+      {
+        "name": "COMP PLUS+ASIA+DL VW",
+        "code": "10453",
+        "payeeId": "93701001008",
+        "amount": "1365000"
+      },
+      {
+        "name": "COMP PLUS+ASIA+ZDF",
+        "code": "10446",
+        "payeeId": "93701001008",
+        "amount": "1488000"
+      },
+      {
+        "name": "COMP PLUS+DUAL VIEW",
+        "code": "10449",
+        "payeeId": "93701001008",
+        "amount": "965000"
+      },
+      {
+        "name": "COMP PLUS+EXTRA VIEW",
+        "code": "10450",
+        "payeeId": "93701001008",
+        "amount": "965000"
+      },
+      {
+        "name": "COMP PLUS+FRENCH",
+        "code": "10448",
+        "payeeId": "93701001008",
+        "amount": "1390000"
+      },
+      {
+        "name": "COMP PLUS+GERMAN",
+        "code": "10447",
+        "payeeId": "93701001008",
+        "amount": "1088000"
+      },
+      {
+        "name": "COMP PLUS+PVR ACCESS",
+        "code": "10451",
+        "payeeId": "93701001008",
+        "amount": "965000"
+      },
+      {
+        "name": "COMP PLUS BOUQUET",
+        "code": "10430",
+        "payeeId": "93701001008",
+        "amount": "785000"
+      },
+      {
+        "name": "COMP PLS+ASA+PVR ACCESS",
+        "code": "10452",
+        "payeeId": "93701001008",
+        "amount": "1365000"
+      },
+      {
+        "name": "FAMILY+ASIA",
+        "code": "10437",
+        "payeeId": "93701001008",
+        "amount": "700000"
+      },
+      {
+        "name": "FAMILY+DUAL",
+        "code": "10425",
+        "payeeId": "93701001008",
+        "amount": "480000"
+      },
+      {
+        "name": "FAMILY+EXTR VIEW",
+        "code": "10440",
+        "payeeId": "93701001008",
+        "amount": "480000"
+      },
+      {
+        "name": "FAMILY+FRENCH",
+        "code": "10439",
+        "payeeId": "93701001008",
+        "amount": "905000"
+      },
+      {
+        "name": "FAMILY+GERMAN",
+        "code": "10438",
+        "payeeId": "93701001008",
+        "amount": "603000"
+      },
+      {
+        "name": "FAMILY+PVR ACCESS",
+        "code": "10410",
+        "payeeId": "93701001008",
+        "amount": "480000"
+      },
+      {
+        "name": "FAMILY BOUQUET",
+        "code": "10406",
+        "payeeId": "93701001008",
+        "amount": "300000"
+      },
+      {
+        "name": "FRENCH ALONE",
+        "code": "10415",
+        "payeeId": "93701001008",
+        "amount": "605000"
+      },
+      {
+        "name": "GERMAN ALONE",
+        "code": "10411",
+        "payeeId": "93701001008",
+        "amount": "303000"
+      },
+      {
+        "name": "MINI",
+        "code": "10403",
+        "payeeId": "93701001008",
+        "amount": "500000"
+      },
+      {
+        "name": "MINI+ASIA",
+        "code": "10422",
+        "payeeId": "93701001008",
+        "amount": "900000"
+      },
+      {
+        "name": "MINI+ASIA+DUAL",
+        "code": "10462",
+        "payeeId": "93701001008",
+        "amount": "1080000"
+      },
+      {
+        "name": "MINI+ASIA+GERMAN",
+        "code": "10442",
+        "payeeId": "93701001008",
+        "amount": "1203000"
+      },
+      {
+        "name": "MINI+DUAL",
+        "code": "10404",
+        "payeeId": "93701001008",
+        "amount": "680000"
+      },
+      {
+        "name": "MINI+DUAL",
+        "code": "10423",
+        "payeeId": "93701001008",
+        "amount": "660000"
+      },
+      {
+        "name": "MINI+EXTRA VIEW",
+        "code": "10443",
+        "payeeId": "93701001008",
+        "amount": "680000"
+      },
+      {
+        "name": "MINI+FRENCH",
+        "code": "10444",
+        "payeeId": "93701001008",
+        "amount": "1105000"
+      },
+      {
+        "name": "MINI+GERMAN",
+        "code": "10463",
+        "payeeId": "93701001008",
+        "amount": "803000"
+      },
+      {
+        "name": "MINI+PVR ACCESS",
+        "code": "10409",
+        "payeeId": "93701001008",
+        "amount": "680000"
+      },
+      {
+        "name": "MINIASIA+PVR ACCESS",
+        "code": "10464",
+        "payeeId": "93701001008",
+        "amount": "1060000"
+      },
+      {
+        "name": "PREMIUM",
+        "code": "10401",
+        "payeeId": "93701001008",
+        "amount": "1165000"
+      },
+      {
+        "name": "PREMIUM+ASIA",
+        "code": "10418",
+        "payeeId": "93701001008",
+        "amount": "1377000"
+      },
+      {
+        "name": "PREMIUM+ASIA+DUAL",
+        "code": "10426",
+        "payeeId": "93701001008",
+        "amount": "1492000"
+      },
+      {
+        "name": "PREM+ASIA+PVR ACCESS",
+        "code": "10457",
+        "payeeId": "93701001008",
+        "amount": "1492000"
+      },
+      {
+        "name": "PREM+DUAL",
+        "code": "10402",
+        "payeeId": "93701001008",
+        "amount": "1345000"
+      },
+      {
+        "name": "PREM+EXTRA VIEW",
+        "code": "10456",
+        "payeeId": "93701001008",
+        "amount": "1345000"
+      },
+      {
+        "name": "PREM+FRENCH",
+        "code": "10414",
+        "payeeId": "93701001008",
+        "amount": "1312000"
+      },
+      {
+        "name": "PREM+FRENCH+ASIA",
+        "code": "10454",
+        "payeeId": "93701001008",
+        "amount": "1712000"
+      },
+      {
+        "name": "PREM+FRNCH+ASIA+GERMAN",
+        "code": "10455",
+        "payeeId": "93701001008",
+        "amount": "1874000"
+      },
+      {
+        "name": "PREM+FRENCH+DUAL",
+        "code": "10427",
+        "payeeId": "93701001008",
+        "amount": "1492000"
+      },
+      {
+        "name": "PREM+GERMAN",
+        "code": "10421",
+        "payeeId": "93701001008",
+        "amount": "1327000"
+      },
+      {
+        "name": "PREM+PVR ACCESS",
+        "code": "10408",
+        "payeeId": "93701001008",
+        "amount": "1345000"
+      }
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Zeepay</string>
+    <string name="SERVER_IP" translatable="false">14.1.43.12</string>
+    <string name="SERVER_PORT" translatable="false">2994</string>
+    <string name="REQUESTS_NUM" translatable="false">4</string>
+    <string name="DEFAULT_CURRENCY" translatable="false">NZD</string>
+    <bool name="supportExternalInternalTopup">true</bool>
+    <bool name="PAY_PIN_REQUIRED">false</bool>
+
+    <color name="APP_FRAGMENT_BACKGROUND_COLOR">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="APP_MAIN_COLOR">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="ACTIONBAR_THEME_COLOR">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="TAB_PRESSED">@color/BLACK</color>
+    <color name="APP_MAIN_TEXT_COLOR">@color/BLACK</color>
+    <color name="QUICKPAY_BACKGROUND">@color/ZEEPAY_FF_77A13A</color>
+    <color name="APP_MAIN_COLOR_DARKER">@color/ZEEPAY_FF_77A13A</color>
+    <color name="TAB_BACKGROUND_PRESSED">@color/ZEEPAY_FF_77A13A</color>
+    <color name="TAB_SEP_TOP">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="QUICK_PAY_PRESSED">@color/ZEEPAY_FF_719B37</color>
+    <color name="TAB_SEP_BOTTOM">@color/ZEEPAY_88_80AC3F</color>
+    <color name="BUTTON_COLOR">@color/ZEEPAY_FF_77A13A</color>
+    <color name="OFF_WHITE">@color/CC_WHITE</color>
+    <color name="BUTTON_COLOR_PRESSED">@color/ZEEPAY_FF_719B37</color>
+    <color name="CUST_REG_CELL_SHAPE_BORDER">@color/BLACK</color>
+    <color name="CUST_REG_CELL_SHAPE_FILL">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_BORDER">@color/BLACK</color>
+    <color name="CUST_REG_CELL_SHAPE_SELECTED_FILL">@color/BLACK</color>
+    <color name="LOGIN_KEYPAD_BUTTON_NORMAL_BACKGROUND_COLOR">@color/ZEEPAY_FF_77A13A</color>
+    <color name="LOGIN_KEYPAD_BUTTON_PRESSED_BACKGROUND_COLOR">#FF719B37</color>
+
+    <color name="circular_progress_dialog_color">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="circular_progress_dialog_center_color">@color/BLACK</color>
+    <color name="TEXT_NORMAL">@color/BLACK</color>
+    <color name="LOGIN_KEYPAD_BUTTON_TEXT_COLOR">@color/BLACK</color>
+
+    <color name="TEXT_COLOR">@color/BLACK</color>
+
+    <color name="BUTTON_TEXT_COLOR">@color/BLACK</color>
+    <color name="ACTIONBAR_TITLE_TEXT_COLOR">@color/BLACK</color>
+    <color name="ABOUT_TEXT_COLOR">@color/BLACK</color>
+
+    <color name="LOGIN_TEXT_COLOR">@color/BLACK</color>
+    <color name="TEXT_RESULT_COLOR">@color/BLACK</color>
+
+    <!-- Customer colors definitions start -->
+
+    <color name="ZEEPAY_FF_80AC3F">#FF80AC3F</color>
+    <color name="ZEEPAY_FF_77A13A">#FF77A13A</color>
+    <color name="ZEEPAY_FF_719B37">#FF719B37</color>
+    <color name="ZEEPAY_88_80AC3F">#8880AC3F</color>
+    <!-- Customer colors definitions start-->
+    <color name="main_app_color">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="action_bar_color">@color/BLACK</color>
+    <color name="theme_background_gradient_start_color">@color/BLACK</color>
+    <color name="theme_background_gradient_end_color">@color/BLACK</color>
+    <!-- app in general -->
+
+   <!-- <color name="action_bar_text_color">#003050</color>
+    <color name="action_bar_borderLine_color">#003050</color>
+
+    <color name="title_color">#003050</color>
+    <color name="login_button_background_color">@color/BLACK</color>
+
+
+    &lt;!&ndash; login view &ndash;&gt;
+    <color name="login_flashing_logging_text_color">#003050</color>
+    <color name="login_bottom_layout_color">#003050</color>
+    <color name="login_button_border_color">#000000</color>
+    <color name="login_button_border_pressed_color">#000000</color>
+
+    <color name="login_button_background_pressed_color">#003050</color>
+    <color name="login_button_text_color">#000000</color>
+    <color name="login_checkbox_text_color">@color/BLACK</color>
+
+    &lt;!&ndash; home view &ndash;&gt;
+    <color name="home_bottom_layout_color">#003050</color>
+    <color name="home_bottom_listview_item_start_color">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="home_bottom_listview_item_end_color">#003050</color>
+    <color name="home_bottom_listview_item_border_color">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="home_bottom_listview_item_text_color">@color/BLACK</color>
+    <color name="home_bottom_listview_item_background_pressed_color">@color/ZEEPAY_FF_77A13A</color>
+
+    &lt;!&ndash; wallet view &ndash;&gt;
+    <color name="wallet_layout_color">#003050</color>
+    <color name="wallet_bottom_listview_item_start_color">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="wallet_bottom_listview_item_end_color">#003050</color>
+    <color name="wallet_bottom_listview_item_border_color">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="wallet_bottom_listview_item_text_color">@color/BLACK</color>
+    <color name="wallet_bottom_listview_item_background_pressed_color">@color/ZEEPAY_FF_77A13A</color>
+
+    &lt;!&ndash; transaction status dialog &ndash;&gt;
+    <color name="txl_status_dialog_text_color">@color/BLACK</color>
+    <color name="txl_status_layout_background_color">#003050</color>
+    <color name="txl_status_button_text_color">#000000</color>
+    <color name="txl_status_button_background_color">@color/ZEEPAY_FF_77A13A</color>
+    <color name="txl_status_button_background_pressed_color">#FF719B37</color>
+    <color name="txl_status_button_border_color">#000000</color>
+    <color name="txl_status_button_border_pressed_color">#000000</color>
+
+    &lt;!&ndash; Tag purchase Dialog&ndash;&gt;
+    <color name="tagPurchase_dialog_product_text_color">@color/BLACK</color>
+    <color name="tagPurchase_dialog_price_text_color">@color/BLACK</color>
+    <color name="tagPurchase_dialog_EnterPin_text_color">@color/BLACK</color>
+    <color name="tagPurchase_dialog_button_background_color">@color/BLACK</color>
+    <color name="tagPurchase_dialog_button_border_color">@color/BLACK</color>
+    <color name="tagPurchase_dialog_button_pressed_background_color">@color/BLACK</color>
+    <color name="tagPurchase_dialog_button_pressed_border_color">#000000</color>
+
+    &lt;!&ndash; settings view &ndash;&gt;
+    <color name="settings_layout_color">#003050</color>
+    <color name="settings_bottom_listview_item_start_color">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="settings_bottom_listview_item_end_color">#003050</color>
+    <color name="settings_bottom_listview_item_border_color">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="settings_bottom_listview_item_text_color">@color/BLACK</color>
+    <color name="settings_bottom_listview_item_background_pressed_color">@color/ZEEPAY_FF_77A13A</color>
+
+    &lt;!&ndash; changepin view &ndash;&gt;
+    <color name="changepin_layout_color">#003050</color>
+    <color name="changepin_submit_button_text_color">#003050</color>
+    <color name="changepin_submitbutton_background_color">#003050</color>
+    <color name="changepin_submitbutton_border_color">#000000</color>
+
+    &lt;!&ndash; logout dialog &ndash;&gt;
+    <color name="logout_layout_background_start_color">#003050</color>
+    <color name="logout_layout_background_end_color">@color/ZEEPAY_FF_80AC3F</color>
+    <color name="logout_text_color">@color/BLACK</color>
+
+    &lt;!&ndash; registration dialog &ndash;&gt;
+    <color name="registration_layout_background_color">@color/BLACK</color>
+    <color name="registration_register_button_background_color">#003050</color>
+    <color name="registration_register_button_text_color">@color/BLACK</color>
+
+    &lt;!&ndash; wallet's navigation menu &ndash;&gt;
+    <color name="nav_menu_layout_background_color">#404040</color>
+    <color name="nav_menu_text_color">@color/BLACK</color>
+    <color name="nav_menu_listview_divider_color">#404040</color>
+    <color name="nav_menu_listview_background_color">#888888</color>
+    <color name="nav_menu_listview_item_chosen_color">#202020</color>
+
+    &lt;!&ndash; Transactions history &ndash;&gt;
+    <color name="txl_history_layout_background_color">@color/BLACK</color>
+    <color name="txl_history_time_text_color">#000000</color>
+    <color name="txl_history_fromToAccount_text_color">#000000</color>
+    <color name="txl_history_amount_text_color">#000000</color>
+    <color name="txl_history_paymentType_text_color">#000000</color>
+
+    &lt;!&ndash; receive payment view &ndash;&gt;
+    <color name="receivepayment_layout_background_color">@color/BLACK</color>
+    <color name="receivepayment_title_text_color">#003050</color>
+
+    &lt;!&ndash; make payment view &ndash;&gt;
+    <color name="makepayment_layout_background_color">@color/BLACK</color>
+    <color name="makepayment_title_text_color">#003050</color>
+
+    &lt;!&ndash; receive cash in view &ndash;&gt;
+    <color name="receivecashin_layout_background_color">@color/BLACK</color>
+    <color name="receivecashin_title_text_color">#003050</color>
+
+    &lt;!&ndash; give cash out view &ndash;&gt;
+    <color name="givecashout_layout_background_color">@color/BLACK</color>
+    <color name="givecashout_title_text_color">#003050</color>
+
+    &lt;!&ndash; widget &ndash;&gt;
+    <color name="widget_text_color">#003050</color>
+    <color name="widget_lastupdate_layout_color">@color/BLACK</color>
+
+    &lt;!&ndash; NFC ReceivePayment dialog &ndash;&gt;
+    <color name="nfc_transfere_amount_dialog">#003050</color>
+    <color name="nfc_transfere_all_texts_color">@color/BLACK</color>
+
+    &lt;!&ndash; circular progress dialog &ndash;&gt;
+
+
+    &lt;!&ndash; Bill Paymtns&ndash;&gt;
+    <color name="billpayments_layout_color">@color/BLACK</color>
+    <color name="billpayments_title_color">#003050</color>
+    <color name="billpayments_spinner_background">#eff2f5</color>
+    <color name="billpayments_spinner_text">#000000</color>
+
+    &lt;!&ndash; Top up&ndash;&gt;
+    <color name="topup_layout_color">#003050</color>
+    <color name="buyvoucher_layout_background_color">@color/BLACK</color>
+    <color name="buyvoucher_title_text_color">#003050</color>
+
+    &lt;!&ndash; Options &ndash;&gt;
+    <color name="Options_layout_color">#003050</color>
+
+    <color name="TRANSPARENT">#00000000</color>
+    <color name="TRANSPARENT_PROGRESS">#22000000</color>
+    <drawable name="transparent_background">#00000000</drawable>
+    &lt;!&ndash;<color name="tab_normal">@color/BLACK</color>&ndash;&gt;
+    <color name="TAB_NORMAL">#77000000</color>
+
+
+    <color name="TAB_BACKGROUND_NORMAL">#77000000</color>
+
+
+
+
+    <color name="VARIABLE_C2MP_LINE_COLOR">@color/BLACK</color>
+
+
+-->
+
+</resources>

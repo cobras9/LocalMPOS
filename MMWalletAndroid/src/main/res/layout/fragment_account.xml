@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobilisDemo.android.nfc.activities.ApplicationActivity$PlaceholderFragment"
+    android:background="@color/APP_MAIN_COLOR">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ACCOUNT_BALANCE_HEIGHT"
+        android:id="@+id/Fragment_Account_LinearLayout_Balance"
+        android:background="@color/BALANCE_BACKGROUND_COLOR"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Fragment_Account_RefreshButton"
+            android:background="@drawable/refresh"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/Fragment_Account_TextView_MerchantId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/TEXT_COLOR"
+            android:textSize="20sp"
+            android:text="Account ID: "
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:id="@+id/Fragment_Account_TextView_Balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/TEXT_COLOR"
+            android:layout_below="@id/Fragment_Account_TextView_MerchantId"
+            android:textSize="20sp"
+            android:text="@string/labelBalance"
+            android:singleLine="false"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/Fragment_Account_LinearLayout_TransactionsHeader"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/Fragment_Account_LinearLayout_Balance"
+        android:background="@color/BALANCE_BACKGROUND_COLOR">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/TRANSACTION_HEADER_TEXT_COLOR"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:text="@string/DATE"
+            android:gravity="center_vertical"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/TRANSACTION_HEADER_TEXT_COLOR"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:text="@string/TYPE"
+            android:gravity="center_vertical"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textColor="@color/TRANSACTION_HEADER_TEXT_COLOR"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:text="@string/OTHER_PARTY"
+            android:gravity="center_vertical"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:textColor="@color/TRANSACTION_HEADER_TEXT_COLOR"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:text="@string/AMOUNT"
+            android:gravity="center_vertical|right"
+            android:paddingRight="5dp"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Fragment_Account_ListView_Transactions"
+        android:layout_below="@+id/Fragment_Account_LinearLayout_TransactionsHeader"
+        android:layout_centerHorizontal="true"
+        android:background="@color/TRANSACTION_LIST_BACKGROUND_COLOR"
+        android:overScrollMode="never"/>
+
+
+    <ProgressBar
+        android:id="@+id/Fragment_Account_Progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:indeterminateDrawable="@drawable/progress_style"/>
+
+
+</RelativeLayout>
